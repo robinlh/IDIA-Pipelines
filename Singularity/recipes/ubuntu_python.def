@@ -1,0 +1,109 @@
+# A base Ubuntu 16 Singularity container with basic Python packages
+# uses pip to install numpy so it detects and takes advantage of OpenBLAS
+# OpenBLAS is optimized for multiple CPU archs, on par with MKL for SSE and AVX 
+# and about 30% slower for AVX2
+
+# bootstraping from docker image is faster and includes more dependencies
+BootStrap: docker
+From: ubuntu:16.04
+
+# alternatively we can bootstrap directly from the repo, but installation will be longer
+#BootStrap: debootstrap
+#OSVersion: xenial
+#MirrorURL: http://us.archive.ubuntu.com/ubuntu/
+#Include: rpm2cpio
+
+%help
+A base Ubuntu 16 Singularity container with basic Python packages such as NumPy and SciPy with OpenBLAS
+Run as "ubuntu_python.sif [arguments]" which is equivalent to running "python [arguments]"
+
+%runscript
+    echo "Arguments received: $*"
+    exec /usr/bin/python "$@"
+
+%setup
+    # Runs from outside the container during Bootstrap
+    # for example how to use this section see
+    # https://github.com/mcuma/chpc_singularity/blob/master/tensorflow/ubuntu16-tensorflow-1.0.1-gpu.def
+
+
+%post
+    # Runs within the container during Bootstrap
+
+    # Install the commonly used packages (from repo)
+    apt-get update && apt-get install -y --no-install-recommends \
+        apt-utils \
+        build-essential \
+        curl \
+        git \
+        libopenblas-dev \
+        libcurl4-openssl-dev \
+        libfreetype6-dev \
+        libpng-dev \
+        libzmq3-dev \
+        locales \
+        python-pip \
+        pkg-config \
+        python-dev \
+        python-setuptools \
+        rsync \
+        software-properties-common \
+        unzip \
+        vim \
+        zip \
+        zlib1g-dev
+    apt-get clean
+
+    # Set up some required environment defaults
+    #MC issue with locale (LC_ALL, LANGUAGE), to get it right:
+    locale-gen "en_US.UTF-8" 
+    dpkg-reconfigure locales 
+    export LANGUAGE="en_US.UTF-8"
+    echo 'LANGUAGE="en_US.UTF-8"' >> /etc/default/locale
+    echo 'LC_ALL="en_US.UTF-8"' >> /etc/default/locale
+
+    # Update to the latest pip
+    pip install --no-cache-dir --upgrade pip
+    
+    # Install other commonly-needed python packages
+    pip install --no-cache-dir --upgrade \
+        future \
+        matplotlib \
+        scipy \
+        ray \
+        psutil
+
+    #for OpenBLAS accelerated Python3 NumPy, install through pip3
+    apt-get install -y python3-pip
+    pip3 install --no-cache-dir --upgrade pip
+    pip3 install --no-cache-dir --upgrade future matplotlib scipy
+    pip3 install --no-cache-dir --upgrade ray
+
+    # need to create mount point for home dir
+    mkdir /uufs
+    mkdir /scratch
+
+    # git, wget
+    apt-get install -y git wget
+    # LMod
+    apt-get install -y liblua5.1-0 liblua5.1-0-dev lua-filesystem-dev lua-filesystem lua-posix-dev lua-posix lua5.1 tcl tcl-dev lua-term lua-term-dev lua-json
+
+    echo "
+if [ -f /uufs/chpc.utah.edu/sys/etc/profile.d/module.sh ]
+then
+   . /uufs/chpc.utah.edu/sys/etc/profile.d/module.sh
+fi
+   " > /etc/profile.d/91-chpc.sh
+
+    echo "
+. /etc/profile.d/91-chpc.sh
+" >> /etc/bash.bashrc
+
+%environment    
+PATH=/usr/local/bin:$PATH
+LD_LIBRARY_PATH=/usr/local/lib:$LD_LIBRARY_PATH
+
+%test
+    # Sanity check that the container is operating
+    # make sure that numpy is using openblas
+    /usr/bin/python -c "import numpy as np;np.__config__.show()"

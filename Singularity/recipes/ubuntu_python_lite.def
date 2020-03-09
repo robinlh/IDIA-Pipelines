@@ -1,0 +1,20 @@
+BootStrap: docker
+From: ubuntu:18.04
+
+%post
+    apt -y update && apt-get -y upgrade
+    apt-get install -y wget vim python-pip git gcc cmake python3 git
+    apt-get install -y software-properties-common
+    add-apt-repository -s ppa:kernsuite/kern-5
+    apt-add-repository multiverse
+    apt-add-repository restricted
+    apt-get update
+    pip install ray
+    pip install scipy
+    pip install numpy
+    pip install psutil
+
+%test
+    # Sanity check that the container is operating
+    # make sure that numpy is using openblas
+    /usr/bin/python -c "import numpy as np;np.__config__.show()"
