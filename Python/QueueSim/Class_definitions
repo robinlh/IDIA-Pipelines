@@ -1,0 +1,26 @@
+Initial class definitions for Object Oriented simulation model:
+
+Job: passive object, attributes describe characteristics and states
+Task: modelled as tasks of parallel jobs, created and initialized by the cluster object
+
+Arrival: generates synthetic jobs of various types until end of sim
+
+Resources (Node): compute resources. Think about how to differentiate between fat and normal nodes
+
+Global scheduler: Needed? Review SLURM accounting
+    Job Queue
+    Task Queue
+
+Cluster: ???
+
+SIMPY Notes:
+
+PROCESSES
+Active objects: process objects, must inherit from Process class. E.g. message in computer network
+At least 1 Process Execution Method (PEM) must be defined in each Process class
+
+A Process Execution Method (PEM) defines the actions that are performed by its process objects.
+Each PEM must contain at least one of the yield statements, described later.
+This makes it a Python generator function so that it has resumable execution –
+it can be restarted again after the yield statement without losing its current state.
+A PEM may have any name of your choice. For example it may be called execute( ) or run( ).
