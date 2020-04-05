@@ -1,17 +1,16 @@
 Initial class definitions for Object Oriented simulation model:
 
 Job: passive object, attributes describe characteristics and states
-Task: modelled as tasks of parallel jobs, created and initialized by the cluster object
 
-Arrival: generates synthetic jobs of various types until end of sim
 
-Resources (Node): compute resources. Think about how to differentiate between fat and normal nodes
+JobGenerator: generates synthetic jobs of various types until end of sim
+
+Resources (Block): compute resources. So far only need SimPy Resource
 
 Global scheduler: Needed? Review SLURM accounting
     Job Queue
     Task Queue
 
-Cluster: ???
 
 SIMPY Notes:
 
