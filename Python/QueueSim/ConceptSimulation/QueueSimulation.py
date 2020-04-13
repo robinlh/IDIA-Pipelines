@@ -59,7 +59,7 @@ class Simulation:
         return np.random.exponential(1. / 3)
 
     def generate_service(self):
-        return np.random.exponential(1. / 4)
+        return np.random.exponential(1. / 2)
 
 
 np.random.seed(0)
@@ -74,7 +74,8 @@ def log_info(simulation):
     )
 
 
-logging.basicConfig(filename='{}.log'.format(log_info.__name__), level=logging.INFO)
-for i in range(1000):
-    sim.advance_time()
-    log_info(sim)
+if __name__ == '__main__':
+    logging.basicConfig(filename='{}.log'.format(log_info.__name__), level=logging.INFO)
+    for i in range(1000):
+        sim.advance_time()
+        log_info(sim)

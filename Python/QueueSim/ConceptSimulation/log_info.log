@@ -3998,3 +3998,4003 @@ INFO:root:system events: 4
 time elapsed: 176.14387676529793
 departures: 498
 arrivals: 502
+INFO:root:system events: 1
+time elapsed: 0.26529150272103663
+departures: 0
+arrivals: 1
+INFO:root:system events: 2
+time elapsed: 0.5730325513223928
+departures: 0
+arrivals: 2
+INFO:root:system events: 3
+time elapsed: 0.8354329354281498
+departures: 0
+arrivals: 3
+INFO:root:system events: 2
+time elapsed: 0.8932568842039555
+departures: 1
+arrivals: 3
+INFO:root:system events: 3
+time elapsed: 1.019115765793316
+departures: 1
+arrivals: 4
+INFO:root:system events: 4
+time elapsed: 1.2109554988495295
+departures: 1
+arrivals: 5
+INFO:root:system events: 3
+time elapsed: 1.4123365316757601
+departures: 2
+arrivals: 5
+INFO:root:system events: 4
+time elapsed: 1.9521303031937483
+departures: 2
+arrivals: 6
+INFO:root:system events: 5
+time elapsed: 2.1133310034944994
+departures: 2
+arrivals: 7
+INFO:root:system events: 6
+time elapsed: 2.636296383484222
+departures: 2
+arrivals: 8
+INFO:root:system events: 7
+time elapsed: 2.8871877533297514
+departures: 2
+arrivals: 9
+INFO:root:system events: 6
+time elapsed: 3.069792622702667
+departures: 3
+arrivals: 9
+INFO:root:system events: 7
+time elapsed: 3.1669987022426924
+departures: 3
+arrivals: 10
+INFO:root:system events: 8
+time elapsed: 3.191560487213642
+departures: 3
+arrivals: 11
+INFO:root:system events: 9
+time elapsed: 3.2219474969199755
+departures: 3
+arrivals: 12
+INFO:root:system events: 10
+time elapsed: 3.228756025814717
+departures: 3
+arrivals: 13
+INFO:root:system events: 11
+time elapsed: 3.824585252353013
+departures: 3
+arrivals: 14
+INFO:root:system events: 12
+time elapsed: 4.326513329641418
+departures: 3
+arrivals: 15
+INFO:root:system events: 11
+time elapsed: 4.368919699665387
+departures: 4
+arrivals: 15
+INFO:root:system events: 12
+time elapsed: 5.006618089956602
+departures: 4
+arrivals: 16
+INFO:root:system events: 13
+time elapsed: 5.541697942939984
+departures: 4
+arrivals: 17
+INFO:root:system events: 14
+time elapsed: 5.7480077624776404
+departures: 4
+arrivals: 18
+INFO:root:system events: 15
+time elapsed: 6.253519754771024
+departures: 4
+arrivals: 19
+INFO:root:system events: 14
+time elapsed: 6.291530618748812
+departures: 5
+arrivals: 19
+INFO:root:system events: 15
+time elapsed: 6.295477892047872
+departures: 5
+arrivals: 20
+INFO:root:system events: 16
+time elapsed: 6.347054452957087
+departures: 5
+arrivals: 21
+INFO:root:system events: 15
+time elapsed: 6.802246561944848
+departures: 6
+arrivals: 21
+INFO:root:system events: 14
+time elapsed: 7.171160201100378
+departures: 7
+arrivals: 21
+INFO:root:system events: 15
+time elapsed: 7.311861269520929
+departures: 7
+arrivals: 22
+INFO:root:system events: 16
+time elapsed: 7.414288053884413
+departures: 7
+arrivals: 23
+INFO:root:system events: 15
+time elapsed: 7.438943060250756
+departures: 8
+arrivals: 23
+INFO:root:system events: 14
+time elapsed: 7.743484268402298
+departures: 9
+arrivals: 23
+INFO:root:system events: 15
+time elapsed: 7.910373000126659
+departures: 9
+arrivals: 24
+INFO:root:system events: 16
+time elapsed: 7.916695857347453
+departures: 9
+arrivals: 25
+INFO:root:system events: 15
+time elapsed: 8.163651621836104
+departures: 10
+arrivals: 25
+INFO:root:system events: 16
+time elapsed: 8.237156167079073
+departures: 10
+arrivals: 26
+INFO:root:system events: 17
+time elapsed: 8.557005491322151
+departures: 10
+arrivals: 27
+INFO:root:system events: 16
+time elapsed: 8.637149960757993
+departures: 11
+arrivals: 27
+INFO:root:system events: 15
+time elapsed: 9.20971944008318
+departures: 12
+arrivals: 27
+INFO:root:system events: 14
+time elapsed: 9.4324786864488
+departures: 13
+arrivals: 27
+INFO:root:system events: 15
+time elapsed: 9.51631051756916
+departures: 13
+arrivals: 28
+INFO:root:system events: 14
+time elapsed: 9.719744890827542
+departures: 14
+arrivals: 28
+INFO:root:system events: 13
+time elapsed: 9.7508025387902
+departures: 15
+arrivals: 28
+INFO:root:system events: 14
+time elapsed: 9.91501311794695
+departures: 15
+arrivals: 29
+INFO:root:system events: 15
+time elapsed: 10.28521226237841
+departures: 15
+arrivals: 30
+INFO:root:system events: 14
+time elapsed: 10.30025877881922
+departures: 16
+arrivals: 30
+INFO:root:system events: 15
+time elapsed: 10.36394783082308
+departures: 16
+arrivals: 31
+INFO:root:system events: 14
+time elapsed: 10.369273122635445
+departures: 17
+arrivals: 31
+INFO:root:system events: 15
+time elapsed: 10.490268486201904
+departures: 17
+arrivals: 32
+INFO:root:system events: 14
+time elapsed: 10.595324150808638
+departures: 18
+arrivals: 32
+INFO:root:system events: 15
+time elapsed: 10.77174441308554
+departures: 18
+arrivals: 33
+INFO:root:system events: 14
+time elapsed: 10.883986306273437
+departures: 19
+arrivals: 33
+INFO:root:system events: 13
+time elapsed: 10.937803862541083
+departures: 20
+arrivals: 33
+INFO:root:system events: 12
+time elapsed: 11.054954620357561
+departures: 21
+arrivals: 33
+INFO:root:system events: 11
+time elapsed: 11.142911397074863
+departures: 22
+arrivals: 33
+INFO:root:system events: 10
+time elapsed: 11.672282759528072
+departures: 23
+arrivals: 33
+INFO:root:system events: 9
+time elapsed: 11.818323026981707
+departures: 24
+arrivals: 33
+INFO:root:system events: 8
+time elapsed: 12.132293817518804
+departures: 25
+arrivals: 33
+INFO:root:system events: 9
+time elapsed: 12.256576873288559
+departures: 25
+arrivals: 34
+INFO:root:system events: 8
+time elapsed: 12.272432324370236
+departures: 26
+arrivals: 34
+INFO:root:system events: 9
+time elapsed: 12.314286024212961
+departures: 26
+arrivals: 35
+INFO:root:system events: 8
+time elapsed: 12.330910030390811
+departures: 27
+arrivals: 35
+INFO:root:system events: 7
+time elapsed: 12.405266166084957
+departures: 28
+arrivals: 35
+INFO:root:system events: 6
+time elapsed: 12.514706467437477
+departures: 29
+arrivals: 35
+INFO:root:system events: 7
+time elapsed: 12.670310087479342
+departures: 29
+arrivals: 36
+INFO:root:system events: 6
+time elapsed: 12.744713450217338
+departures: 30
+arrivals: 36
+INFO:root:system events: 5
+time elapsed: 12.79578589354962
+departures: 31
+arrivals: 36
+INFO:root:system events: 6
+time elapsed: 13.243753971405356
+departures: 31
+arrivals: 37
+INFO:root:system events: 7
+time elapsed: 13.277432232340434
+departures: 31
+arrivals: 38
+INFO:root:system events: 6
+time elapsed: 13.705695355747125
+departures: 32
+arrivals: 38
+INFO:root:system events: 5
+time elapsed: 14.021863657079816
+departures: 33
+arrivals: 38
+INFO:root:system events: 6
+time elapsed: 14.527109382575297
+departures: 33
+arrivals: 39
+INFO:root:system events: 7
+time elapsed: 14.836602216336443
+departures: 33
+arrivals: 40
+INFO:root:system events: 8
+time elapsed: 15.284683971232015
+departures: 33
+arrivals: 41
+INFO:root:system events: 9
+time elapsed: 15.298009405393184
+departures: 33
+arrivals: 42
+INFO:root:system events: 10
+time elapsed: 15.408812820492058
+departures: 33
+arrivals: 43
+INFO:root:system events: 11
+time elapsed: 15.451498407650234
+departures: 33
+arrivals: 44
+INFO:root:system events: 12
+time elapsed: 15.56855710327141
+departures: 33
+arrivals: 45
+INFO:root:system events: 13
+time elapsed: 15.610686650511111
+departures: 33
+arrivals: 46
+INFO:root:system events: 14
+time elapsed: 15.738253636443652
+departures: 33
+arrivals: 47
+INFO:root:system events: 13
+time elapsed: 15.902827243139585
+departures: 34
+arrivals: 47
+INFO:root:system events: 14
+time elapsed: 15.916548431858438
+departures: 34
+arrivals: 48
+INFO:root:system events: 13
+time elapsed: 15.935975941385104
+departures: 35
+arrivals: 48
+INFO:root:system events: 14
+time elapsed: 16.309611607568552
+departures: 35
+arrivals: 49
+INFO:root:system events: 13
+time elapsed: 16.354024714000417
+departures: 36
+arrivals: 49
+INFO:root:system events: 14
+time elapsed: 16.4124165541925
+departures: 36
+arrivals: 50
+INFO:root:system events: 15
+time elapsed: 16.445299992085918
+departures: 36
+arrivals: 51
+INFO:root:system events: 14
+time elapsed: 16.72440418979414
+departures: 37
+arrivals: 51
+INFO:root:system events: 15
+time elapsed: 16.731265206081066
+departures: 37
+arrivals: 52
+INFO:root:system events: 16
+time elapsed: 16.859118609561875
+departures: 37
+arrivals: 53
+INFO:root:system events: 17
+time elapsed: 17.22606724998193
+departures: 37
+arrivals: 54
+INFO:root:system events: 18
+time elapsed: 17.27317748798834
+departures: 37
+arrivals: 55
+INFO:root:system events: 19
+time elapsed: 17.69315543205758
+departures: 37
+arrivals: 56
+INFO:root:system events: 20
+time elapsed: 17.807040155324845
+departures: 37
+arrivals: 57
+INFO:root:system events: 21
+time elapsed: 17.874490300918197
+departures: 37
+arrivals: 58
+INFO:root:system events: 20
+time elapsed: 18.04903215229973
+departures: 38
+arrivals: 58
+INFO:root:system events: 19
+time elapsed: 18.059188379473305
+departures: 39
+arrivals: 58
+INFO:root:system events: 20
+time elapsed: 18.168866649681398
+departures: 39
+arrivals: 59
+INFO:root:system events: 21
+time elapsed: 18.170435494538296
+departures: 39
+arrivals: 60
+INFO:root:system events: 22
+time elapsed: 18.547980205934227
+departures: 39
+arrivals: 61
+INFO:root:system events: 23
+time elapsed: 18.65288742829436
+departures: 39
+arrivals: 62
+INFO:root:system events: 22
+time elapsed: 18.942058918288986
+departures: 40
+arrivals: 62
+INFO:root:system events: 23
+time elapsed: 19.095806721663816
+departures: 40
+arrivals: 63
+INFO:root:system events: 24
+time elapsed: 19.1911470475063
+departures: 40
+arrivals: 64
+INFO:root:system events: 25
+time elapsed: 19.47727803562447
+departures: 40
+arrivals: 65
+INFO:root:system events: 26
+time elapsed: 19.77614166315265
+departures: 40
+arrivals: 66
+INFO:root:system events: 27
+time elapsed: 20.05921527035419
+departures: 40
+arrivals: 67
+INFO:root:system events: 28
+time elapsed: 20.143355268836643
+departures: 40
+arrivals: 68
+INFO:root:system events: 27
+time elapsed: 20.579630509810233
+departures: 41
+arrivals: 68
+INFO:root:system events: 26
+time elapsed: 20.875942523615155
+departures: 42
+arrivals: 68
+INFO:root:system events: 27
+time elapsed: 21.160782503831896
+departures: 42
+arrivals: 69
+INFO:root:system events: 28
+time elapsed: 21.56152869051709
+departures: 42
+arrivals: 70
+INFO:root:system events: 29
+time elapsed: 21.679202067893453
+departures: 42
+arrivals: 71
+INFO:root:system events: 28
+time elapsed: 21.812672484246725
+departures: 43
+arrivals: 71
+INFO:root:system events: 27
+time elapsed: 22.065181859785728
+departures: 44
+arrivals: 71
+INFO:root:system events: 28
+time elapsed: 22.23950946948306
+departures: 44
+arrivals: 72
+INFO:root:system events: 29
+time elapsed: 22.52968807566793
+departures: 44
+arrivals: 73
+INFO:root:system events: 28
+time elapsed: 23.129931542147293
+departures: 45
+arrivals: 73
+INFO:root:system events: 29
+time elapsed: 23.241298232154747
+departures: 45
+arrivals: 74
+INFO:root:system events: 30
+time elapsed: 23.67193465314184
+departures: 45
+arrivals: 75
+INFO:root:system events: 29
+time elapsed: 23.719623006633828
+departures: 46
+arrivals: 75
+INFO:root:system events: 30
+time elapsed: 23.903867806006904
+departures: 46
+arrivals: 76
+INFO:root:system events: 31
+time elapsed: 24.248133478758646
+departures: 46
+arrivals: 77
+INFO:root:system events: 32
+time elapsed: 24.431932144804158
+departures: 46
+arrivals: 78
+INFO:root:system events: 33
+time elapsed: 24.74273310261216
+departures: 46
+arrivals: 79
+INFO:root:system events: 34
+time elapsed: 24.749193028940375
+departures: 46
+arrivals: 80
+INFO:root:system events: 35
+time elapsed: 24.86883543444303
+departures: 46
+arrivals: 81
+INFO:root:system events: 36
+time elapsed: 25.228608833130647
+departures: 46
+arrivals: 82
+INFO:root:system events: 35
+time elapsed: 25.282357128143943
+departures: 47
+arrivals: 82
+INFO:root:system events: 36
+time elapsed: 25.34280870674775
+departures: 47
+arrivals: 83
+INFO:root:system events: 37
+time elapsed: 25.529462398146066
+departures: 47
+arrivals: 84
+INFO:root:system events: 38
+time elapsed: 25.577987055949194
+departures: 47
+arrivals: 85
+INFO:root:system events: 39
+time elapsed: 25.696061765807997
+departures: 47
+arrivals: 86
+INFO:root:system events: 38
+time elapsed: 25.763544658764236
+departures: 48
+arrivals: 86
+INFO:root:system events: 39
+time elapsed: 25.97735792267585
+departures: 48
+arrivals: 87
+INFO:root:system events: 38
+time elapsed: 26.210409195827886
+departures: 49
+arrivals: 87
+INFO:root:system events: 39
+time elapsed: 26.262051162434364
+departures: 49
+arrivals: 88
+INFO:root:system events: 40
+time elapsed: 26.614001027809675
+departures: 49
+arrivals: 89
+INFO:root:system events: 39
+time elapsed: 26.73991389489878
+departures: 50
+arrivals: 89
+INFO:root:system events: 40
+time elapsed: 26.802204528740237
+departures: 50
+arrivals: 90
+INFO:root:system events: 41
+time elapsed: 26.954928822547746
+departures: 50
+arrivals: 91
+INFO:root:system events: 42
+time elapsed: 27.1457493431972
+departures: 50
+arrivals: 92
+INFO:root:system events: 41
+time elapsed: 27.874230879452462
+departures: 51
+arrivals: 92
+INFO:root:system events: 42
+time elapsed: 27.887387552456495
+departures: 51
+arrivals: 93
+INFO:root:system events: 43
+time elapsed: 28.293060715297557
+departures: 51
+arrivals: 94
+INFO:root:system events: 44
+time elapsed: 28.32826493011532
+departures: 51
+arrivals: 95
+INFO:root:system events: 43
+time elapsed: 28.694679661318663
+departures: 52
+arrivals: 95
+INFO:root:system events: 44
+time elapsed: 29.168025643298837
+departures: 52
+arrivals: 96
+INFO:root:system events: 43
+time elapsed: 29.320983425817964
+departures: 53
+arrivals: 96
+INFO:root:system events: 42
+time elapsed: 29.401918469167097
+departures: 54
+arrivals: 96
+INFO:root:system events: 41
+time elapsed: 30.414872865538083
+departures: 55
+arrivals: 96
+INFO:root:system events: 40
+time elapsed: 30.503535655093675
+departures: 56
+arrivals: 96
+INFO:root:system events: 39
+time elapsed: 30.981518862918108
+departures: 57
+arrivals: 96
+INFO:root:system events: 38
+time elapsed: 31.04761071798184
+departures: 58
+arrivals: 96
+INFO:root:system events: 39
+time elapsed: 31.423156887978745
+departures: 58
+arrivals: 97
+INFO:root:system events: 40
+time elapsed: 31.972063252334493
+departures: 58
+arrivals: 98
+INFO:root:system events: 39
+time elapsed: 31.98957516792152
+departures: 59
+arrivals: 98
+INFO:root:system events: 38
+time elapsed: 32.25101018258537
+departures: 60
+arrivals: 98
+INFO:root:system events: 39
+time elapsed: 32.252690235161985
+departures: 60
+arrivals: 99
+INFO:root:system events: 38
+time elapsed: 32.28684787754859
+departures: 61
+arrivals: 99
+INFO:root:system events: 37
+time elapsed: 32.58899741569701
+departures: 62
+arrivals: 99
+INFO:root:system events: 38
+time elapsed: 32.65116975801153
+departures: 62
+arrivals: 100
+INFO:root:system events: 37
+time elapsed: 33.22916450739129
+departures: 63
+arrivals: 100
+INFO:root:system events: 38
+time elapsed: 33.32209400323683
+departures: 63
+arrivals: 101
+INFO:root:system events: 39
+time elapsed: 33.967619747659114
+departures: 63
+arrivals: 102
+INFO:root:system events: 40
+time elapsed: 33.97154749253322
+departures: 63
+arrivals: 103
+INFO:root:system events: 41
+time elapsed: 34.12029843552096
+departures: 63
+arrivals: 104
+INFO:root:system events: 42
+time elapsed: 34.556731224390845
+departures: 63
+arrivals: 105
+INFO:root:system events: 43
+time elapsed: 34.61949621602383
+departures: 63
+arrivals: 106
+INFO:root:system events: 44
+time elapsed: 34.86487325156703
+departures: 63
+arrivals: 107
+INFO:root:system events: 45
+time elapsed: 34.88349660333805
+departures: 63
+arrivals: 108
+INFO:root:system events: 46
+time elapsed: 34.95787633915277
+departures: 63
+arrivals: 109
+INFO:root:system events: 47
+time elapsed: 34.96410816274278
+departures: 63
+arrivals: 110
+INFO:root:system events: 46
+time elapsed: 35.08414465844327
+departures: 64
+arrivals: 110
+INFO:root:system events: 45
+time elapsed: 35.210897514463035
+departures: 65
+arrivals: 110
+INFO:root:system events: 44
+time elapsed: 35.42272606677953
+departures: 66
+arrivals: 110
+INFO:root:system events: 45
+time elapsed: 35.490245738219095
+departures: 66
+arrivals: 111
+INFO:root:system events: 46
+time elapsed: 35.89651134224617
+departures: 66
+arrivals: 112
+INFO:root:system events: 47
+time elapsed: 35.90729694572464
+departures: 66
+arrivals: 113
+INFO:root:system events: 48
+time elapsed: 35.967282726242
+departures: 66
+arrivals: 114
+INFO:root:system events: 49
+time elapsed: 36.29111010768329
+departures: 66
+arrivals: 115
+INFO:root:system events: 50
+time elapsed: 36.578084655881696
+departures: 66
+arrivals: 116
+INFO:root:system events: 51
+time elapsed: 36.66864068215577
+departures: 66
+arrivals: 117
+INFO:root:system events: 50
+time elapsed: 36.738835503661264
+departures: 67
+arrivals: 117
+INFO:root:system events: 49
+time elapsed: 37.21475036187471
+departures: 68
+arrivals: 117
+INFO:root:system events: 50
+time elapsed: 37.575756748056236
+departures: 68
+arrivals: 118
+INFO:root:system events: 49
+time elapsed: 37.5982901953423
+departures: 69
+arrivals: 118
+INFO:root:system events: 50
+time elapsed: 37.87288293922918
+departures: 69
+arrivals: 119
+INFO:root:system events: 51
+time elapsed: 37.997511771167076
+departures: 69
+arrivals: 120
+INFO:root:system events: 52
+time elapsed: 38.16680014253243
+departures: 69
+arrivals: 121
+INFO:root:system events: 53
+time elapsed: 38.24530833152267
+departures: 69
+arrivals: 122
+INFO:root:system events: 52
+time elapsed: 38.25318288700341
+departures: 70
+arrivals: 122
+INFO:root:system events: 53
+time elapsed: 38.31398568120775
+departures: 70
+arrivals: 123
+INFO:root:system events: 54
+time elapsed: 38.76243482367246
+departures: 70
+arrivals: 124
+INFO:root:system events: 55
+time elapsed: 38.98718301797555
+departures: 70
+arrivals: 125
+INFO:root:system events: 56
+time elapsed: 39.07318727209758
+departures: 70
+arrivals: 126
+INFO:root:system events: 57
+time elapsed: 39.1710231556275
+departures: 70
+arrivals: 127
+INFO:root:system events: 58
+time elapsed: 39.19095014250841
+departures: 70
+arrivals: 128
+INFO:root:system events: 59
+time elapsed: 39.38091599563606
+departures: 70
+arrivals: 129
+INFO:root:system events: 60
+time elapsed: 39.5054725962702
+departures: 70
+arrivals: 130
+INFO:root:system events: 59
+time elapsed: 39.697720695983094
+departures: 71
+arrivals: 130
+INFO:root:system events: 60
+time elapsed: 39.90275863420704
+departures: 71
+arrivals: 131
+INFO:root:system events: 59
+time elapsed: 39.934928842789404
+departures: 72
+arrivals: 131
+INFO:root:system events: 58
+time elapsed: 39.947423019248575
+departures: 73
+arrivals: 131
+INFO:root:system events: 59
+time elapsed: 39.968747879352414
+departures: 73
+arrivals: 132
+INFO:root:system events: 58
+time elapsed: 39.982231855135176
+departures: 74
+arrivals: 132
+INFO:root:system events: 57
+time elapsed: 40.28452246891988
+departures: 75
+arrivals: 132
+INFO:root:system events: 58
+time elapsed: 40.34792737885484
+departures: 75
+arrivals: 133
+INFO:root:system events: 57
+time elapsed: 40.66908237208706
+departures: 76
+arrivals: 133
+INFO:root:system events: 58
+time elapsed: 41.10454072636533
+departures: 76
+arrivals: 134
+INFO:root:system events: 59
+time elapsed: 41.18603773515917
+departures: 76
+arrivals: 135
+INFO:root:system events: 60
+time elapsed: 41.54867254590449
+departures: 76
+arrivals: 136
+INFO:root:system events: 61
+time elapsed: 41.65054084591834
+departures: 76
+arrivals: 137
+INFO:root:system events: 62
+time elapsed: 41.65749658365894
+departures: 76
+arrivals: 138
+INFO:root:system events: 63
+time elapsed: 42.130957738157996
+departures: 76
+arrivals: 139
+INFO:root:system events: 64
+time elapsed: 42.2595203058006
+departures: 76
+arrivals: 140
+INFO:root:system events: 65
+time elapsed: 42.42073310322478
+departures: 76
+arrivals: 141
+INFO:root:system events: 66
+time elapsed: 42.71656707625468
+departures: 76
+arrivals: 142
+INFO:root:system events: 65
+time elapsed: 42.98890870786181
+departures: 77
+arrivals: 142
+INFO:root:system events: 66
+time elapsed: 43.30928151710276
+departures: 77
+arrivals: 143
+INFO:root:system events: 65
+time elapsed: 43.48466084709419
+departures: 78
+arrivals: 143
+INFO:root:system events: 64
+time elapsed: 43.644448175590576
+departures: 79
+arrivals: 143
+INFO:root:system events: 65
+time elapsed: 43.99622192523239
+departures: 79
+arrivals: 144
+INFO:root:system events: 66
+time elapsed: 44.06467118193089
+departures: 79
+arrivals: 145
+INFO:root:system events: 65
+time elapsed: 44.444307905348
+departures: 80
+arrivals: 145
+INFO:root:system events: 64
+time elapsed: 45.02586455282319
+departures: 81
+arrivals: 145
+INFO:root:system events: 65
+time elapsed: 45.08239939624479
+departures: 81
+arrivals: 146
+INFO:root:system events: 64
+time elapsed: 45.14722379924946
+departures: 82
+arrivals: 146
+INFO:root:system events: 63
+time elapsed: 45.803477803591306
+departures: 83
+arrivals: 146
+INFO:root:system events: 62
+time elapsed: 45.949953530968074
+departures: 84
+arrivals: 146
+INFO:root:system events: 63
+time elapsed: 46.0638927960133
+departures: 84
+arrivals: 147
+INFO:root:system events: 62
+time elapsed: 46.069915292260504
+departures: 85
+arrivals: 147
+INFO:root:system events: 61
+time elapsed: 46.08291416721929
+departures: 86
+arrivals: 147
+INFO:root:system events: 60
+time elapsed: 46.19917667434321
+departures: 87
+arrivals: 147
+INFO:root:system events: 61
+time elapsed: 46.30730201954705
+departures: 87
+arrivals: 148
+INFO:root:system events: 62
+time elapsed: 46.46352751249183
+departures: 87
+arrivals: 149
+INFO:root:system events: 61
+time elapsed: 46.47559586278008
+departures: 88
+arrivals: 149
+INFO:root:system events: 60
+time elapsed: 46.638203870312445
+departures: 89
+arrivals: 149
+INFO:root:system events: 61
+time elapsed: 46.67113728340831
+departures: 89
+arrivals: 150
+INFO:root:system events: 60
+time elapsed: 47.0800966996932
+departures: 90
+arrivals: 150
+INFO:root:system events: 59
+time elapsed: 47.142612993810005
+departures: 91
+arrivals: 150
+INFO:root:system events: 60
+time elapsed: 47.335817028515194
+departures: 91
+arrivals: 151
+INFO:root:system events: 61
+time elapsed: 47.38303103882569
+departures: 91
+arrivals: 152
+INFO:root:system events: 60
+time elapsed: 47.50687491104289
+departures: 92
+arrivals: 152
+INFO:root:system events: 59
+time elapsed: 47.759014876863056
+departures: 93
+arrivals: 152
+INFO:root:system events: 60
+time elapsed: 47.80363526484086
+departures: 93
+arrivals: 153
+INFO:root:system events: 61
+time elapsed: 47.87112151803429
+departures: 93
+arrivals: 154
+INFO:root:system events: 62
+time elapsed: 47.92328010691714
+departures: 93
+arrivals: 155
+INFO:root:system events: 63
+time elapsed: 48.14646030129284
+departures: 93
+arrivals: 156
+INFO:root:system events: 62
+time elapsed: 48.1757040019794
+departures: 94
+arrivals: 156
+INFO:root:system events: 63
+time elapsed: 48.29294543291523
+departures: 94
+arrivals: 157
+INFO:root:system events: 64
+time elapsed: 48.77613036034358
+departures: 94
+arrivals: 158
+INFO:root:system events: 65
+time elapsed: 49.23645138604532
+departures: 94
+arrivals: 159
+INFO:root:system events: 64
+time elapsed: 49.58602192337028
+departures: 95
+arrivals: 159
+INFO:root:system events: 63
+time elapsed: 49.62957621537751
+departures: 96
+arrivals: 159
+INFO:root:system events: 64
+time elapsed: 50.01661537370368
+departures: 96
+arrivals: 160
+INFO:root:system events: 63
+time elapsed: 50.03127209499898
+departures: 97
+arrivals: 160
+INFO:root:system events: 64
+time elapsed: 50.30935373056064
+departures: 97
+arrivals: 161
+INFO:root:system events: 65
+time elapsed: 50.42452692328618
+departures: 97
+arrivals: 162
+INFO:root:system events: 66
+time elapsed: 50.51636957015889
+departures: 97
+arrivals: 163
+INFO:root:system events: 67
+time elapsed: 50.551598627332645
+departures: 97
+arrivals: 164
+INFO:root:system events: 68
+time elapsed: 50.55712065823686
+departures: 97
+arrivals: 165
+INFO:root:system events: 69
+time elapsed: 51.441306823794775
+departures: 97
+arrivals: 166
+INFO:root:system events: 68
+time elapsed: 51.66552023024431
+departures: 98
+arrivals: 166
+INFO:root:system events: 69
+time elapsed: 51.81077674625285
+departures: 98
+arrivals: 167
+INFO:root:system events: 70
+time elapsed: 51.92108004068184
+departures: 98
+arrivals: 168
+INFO:root:system events: 71
+time elapsed: 52.2153735526299
+departures: 98
+arrivals: 169
+INFO:root:system events: 72
+time elapsed: 52.23740422297683
+departures: 98
+arrivals: 170
+INFO:root:system events: 71
+time elapsed: 52.43443459154569
+departures: 99
+arrivals: 170
+INFO:root:system events: 72
+time elapsed: 52.45900680775617
+departures: 99
+arrivals: 171
+INFO:root:system events: 73
+time elapsed: 53.15619233976123
+departures: 99
+arrivals: 172
+INFO:root:system events: 74
+time elapsed: 53.29376895989145
+departures: 99
+arrivals: 173
+INFO:root:system events: 73
+time elapsed: 54.331446582416156
+departures: 100
+arrivals: 173
+INFO:root:system events: 74
+time elapsed: 54.38007592515477
+departures: 100
+arrivals: 174
+INFO:root:system events: 73
+time elapsed: 54.463235139458604
+departures: 101
+arrivals: 174
+INFO:root:system events: 74
+time elapsed: 55.37414282119411
+departures: 101
+arrivals: 175
+INFO:root:system events: 73
+time elapsed: 55.881555233957855
+departures: 102
+arrivals: 175
+INFO:root:system events: 74
+time elapsed: 55.90929574668366
+departures: 102
+arrivals: 176
+INFO:root:system events: 73
+time elapsed: 56.379287057428456
+departures: 103
+arrivals: 176
+INFO:root:system events: 72
+time elapsed: 56.55266370965638
+departures: 104
+arrivals: 176
+INFO:root:system events: 73
+time elapsed: 56.60054955903716
+departures: 104
+arrivals: 177
+INFO:root:system events: 74
+time elapsed: 56.92122020118235
+departures: 104
+arrivals: 178
+INFO:root:system events: 75
+time elapsed: 56.92566194978696
+departures: 104
+arrivals: 179
+INFO:root:system events: 76
+time elapsed: 57.06784055696099
+departures: 104
+arrivals: 180
+INFO:root:system events: 77
+time elapsed: 57.121285255485205
+departures: 104
+arrivals: 181
+INFO:root:system events: 76
+time elapsed: 57.497714562726635
+departures: 105
+arrivals: 181
+INFO:root:system events: 75
+time elapsed: 57.82311323437804
+departures: 106
+arrivals: 181
+INFO:root:system events: 74
+time elapsed: 58.16708497155395
+departures: 107
+arrivals: 181
+INFO:root:system events: 75
+time elapsed: 58.457268527256424
+departures: 107
+arrivals: 182
+INFO:root:system events: 76
+time elapsed: 58.61053230146293
+departures: 107
+arrivals: 183
+INFO:root:system events: 77
+time elapsed: 58.65960731297473
+departures: 107
+arrivals: 184
+INFO:root:system events: 76
+time elapsed: 58.677178515409715
+departures: 108
+arrivals: 184
+INFO:root:system events: 75
+time elapsed: 58.782445158338675
+departures: 109
+arrivals: 184
+INFO:root:system events: 74
+time elapsed: 59.14046781754061
+departures: 110
+arrivals: 184
+INFO:root:system events: 75
+time elapsed: 59.23515176963005
+departures: 110
+arrivals: 185
+INFO:root:system events: 74
+time elapsed: 59.26747350992479
+departures: 111
+arrivals: 185
+INFO:root:system events: 75
+time elapsed: 59.269474556933915
+departures: 111
+arrivals: 186
+INFO:root:system events: 74
+time elapsed: 60.25841869248731
+departures: 112
+arrivals: 186
+INFO:root:system events: 75
+time elapsed: 60.47245487758573
+departures: 112
+arrivals: 187
+INFO:root:system events: 76
+time elapsed: 61.262584075412626
+departures: 112
+arrivals: 188
+INFO:root:system events: 77
+time elapsed: 61.758393988200766
+departures: 112
+arrivals: 189
+INFO:root:system events: 76
+time elapsed: 61.87840022124889
+departures: 113
+arrivals: 189
+INFO:root:system events: 77
+time elapsed: 61.89345494686155
+departures: 113
+arrivals: 190
+INFO:root:system events: 76
+time elapsed: 61.920689965819676
+departures: 114
+arrivals: 190
+INFO:root:system events: 75
+time elapsed: 62.05282519828767
+departures: 115
+arrivals: 190
+INFO:root:system events: 76
+time elapsed: 62.06777750014977
+departures: 115
+arrivals: 191
+INFO:root:system events: 77
+time elapsed: 62.08607995918295
+departures: 115
+arrivals: 192
+INFO:root:system events: 76
+time elapsed: 62.12388795497838
+departures: 116
+arrivals: 192
+INFO:root:system events: 75
+time elapsed: 62.1296345818574
+departures: 117
+arrivals: 192
+INFO:root:system events: 76
+time elapsed: 62.51712924076633
+departures: 117
+arrivals: 193
+INFO:root:system events: 77
+time elapsed: 62.570106968796935
+departures: 117
+arrivals: 194
+INFO:root:system events: 78
+time elapsed: 62.597727724920446
+departures: 117
+arrivals: 195
+INFO:root:system events: 79
+time elapsed: 62.62901924108004
+departures: 117
+arrivals: 196
+INFO:root:system events: 78
+time elapsed: 62.86573666021822
+departures: 118
+arrivals: 196
+INFO:root:system events: 79
+time elapsed: 63.00064838619635
+departures: 118
+arrivals: 197
+INFO:root:system events: 78
+time elapsed: 63.006498669576075
+departures: 119
+arrivals: 197
+INFO:root:system events: 79
+time elapsed: 63.182534293940584
+departures: 119
+arrivals: 198
+INFO:root:system events: 78
+time elapsed: 63.414007840428305
+departures: 120
+arrivals: 198
+INFO:root:system events: 79
+time elapsed: 63.8392201547754
+departures: 120
+arrivals: 199
+INFO:root:system events: 80
+time elapsed: 63.94427349844611
+departures: 120
+arrivals: 200
+INFO:root:system events: 81
+time elapsed: 63.99126279458633
+departures: 120
+arrivals: 201
+INFO:root:system events: 82
+time elapsed: 64.01025163999468
+departures: 120
+arrivals: 202
+INFO:root:system events: 81
+time elapsed: 64.06323065613637
+departures: 121
+arrivals: 202
+INFO:root:system events: 82
+time elapsed: 64.12990541307738
+departures: 121
+arrivals: 203
+INFO:root:system events: 81
+time elapsed: 64.21521643664575
+departures: 122
+arrivals: 203
+INFO:root:system events: 82
+time elapsed: 64.33292689986729
+departures: 122
+arrivals: 204
+INFO:root:system events: 83
+time elapsed: 64.72942564961981
+departures: 122
+arrivals: 205
+INFO:root:system events: 82
+time elapsed: 64.79008713314671
+departures: 123
+arrivals: 205
+INFO:root:system events: 83
+time elapsed: 64.84056009486432
+departures: 123
+arrivals: 206
+INFO:root:system events: 84
+time elapsed: 64.90717860705898
+departures: 123
+arrivals: 207
+INFO:root:system events: 83
+time elapsed: 65.02904613055576
+departures: 124
+arrivals: 207
+INFO:root:system events: 82
+time elapsed: 65.05831008189546
+departures: 125
+arrivals: 207
+INFO:root:system events: 83
+time elapsed: 65.42509377101318
+departures: 125
+arrivals: 208
+INFO:root:system events: 82
+time elapsed: 65.65531676704363
+departures: 126
+arrivals: 208
+INFO:root:system events: 83
+time elapsed: 65.92783218019231
+departures: 126
+arrivals: 209
+INFO:root:system events: 84
+time elapsed: 66.02794053973292
+departures: 126
+arrivals: 210
+INFO:root:system events: 85
+time elapsed: 66.18397602330613
+departures: 126
+arrivals: 211
+INFO:root:system events: 84
+time elapsed: 66.40652317268719
+departures: 127
+arrivals: 211
+INFO:root:system events: 85
+time elapsed: 66.47922957072376
+departures: 127
+arrivals: 212
+INFO:root:system events: 84
+time elapsed: 66.56581510039618
+departures: 128
+arrivals: 212
+INFO:root:system events: 85
+time elapsed: 66.63369291277708
+departures: 128
+arrivals: 213
+INFO:root:system events: 84
+time elapsed: 66.67554918242838
+departures: 129
+arrivals: 213
+INFO:root:system events: 83
+time elapsed: 66.6983682092337
+departures: 130
+arrivals: 213
+INFO:root:system events: 84
+time elapsed: 66.83899934380946
+departures: 130
+arrivals: 214
+INFO:root:system events: 85
+time elapsed: 66.86569229688585
+departures: 130
+arrivals: 215
+INFO:root:system events: 86
+time elapsed: 67.1095407441097
+departures: 130
+arrivals: 216
+INFO:root:system events: 87
+time elapsed: 67.23169117434315
+departures: 130
+arrivals: 217
+INFO:root:system events: 86
+time elapsed: 67.50257713709469
+departures: 131
+arrivals: 217
+INFO:root:system events: 87
+time elapsed: 67.51891367147341
+departures: 131
+arrivals: 218
+INFO:root:system events: 88
+time elapsed: 67.86466203928578
+departures: 131
+arrivals: 219
+INFO:root:system events: 89
+time elapsed: 67.87666298238084
+departures: 131
+arrivals: 220
+INFO:root:system events: 90
+time elapsed: 68.06427138296009
+departures: 131
+arrivals: 221
+INFO:root:system events: 91
+time elapsed: 68.30206614327847
+departures: 131
+arrivals: 222
+INFO:root:system events: 92
+time elapsed: 68.55815058715456
+departures: 131
+arrivals: 223
+INFO:root:system events: 93
+time elapsed: 68.93941571201304
+departures: 131
+arrivals: 224
+INFO:root:system events: 94
+time elapsed: 69.04780600370738
+departures: 131
+arrivals: 225
+INFO:root:system events: 95
+time elapsed: 69.09379041349719
+departures: 131
+arrivals: 226
+INFO:root:system events: 94
+time elapsed: 69.10498151336463
+departures: 132
+arrivals: 226
+INFO:root:system events: 95
+time elapsed: 69.26002118852695
+departures: 132
+arrivals: 227
+INFO:root:system events: 96
+time elapsed: 69.32908291548011
+departures: 132
+arrivals: 228
+INFO:root:system events: 97
+time elapsed: 70.1101629039187
+departures: 132
+arrivals: 229
+INFO:root:system events: 98
+time elapsed: 70.37177524122258
+departures: 132
+arrivals: 230
+INFO:root:system events: 99
+time elapsed: 70.57526952276521
+departures: 132
+arrivals: 231
+INFO:root:system events: 98
+time elapsed: 70.67139621037958
+departures: 133
+arrivals: 231
+INFO:root:system events: 97
+time elapsed: 70.97819832011236
+departures: 134
+arrivals: 231
+INFO:root:system events: 98
+time elapsed: 71.28774340618517
+departures: 134
+arrivals: 232
+INFO:root:system events: 99
+time elapsed: 71.4574775655025
+departures: 134
+arrivals: 233
+INFO:root:system events: 98
+time elapsed: 71.6221793085232
+departures: 135
+arrivals: 233
+INFO:root:system events: 97
+time elapsed: 72.20781115605044
+departures: 136
+arrivals: 233
+INFO:root:system events: 98
+time elapsed: 72.23876743900846
+departures: 136
+arrivals: 234
+INFO:root:system events: 99
+time elapsed: 72.37112775763522
+departures: 136
+arrivals: 235
+INFO:root:system events: 98
+time elapsed: 72.80916804508408
+departures: 137
+arrivals: 235
+INFO:root:system events: 99
+time elapsed: 72.84238886265261
+departures: 137
+arrivals: 236
+INFO:root:system events: 100
+time elapsed: 72.93387670317168
+departures: 137
+arrivals: 237
+INFO:root:system events: 101
+time elapsed: 72.99220838593996
+departures: 137
+arrivals: 238
+INFO:root:system events: 100
+time elapsed: 73.31455262516374
+departures: 138
+arrivals: 238
+INFO:root:system events: 101
+time elapsed: 73.52272709310512
+departures: 138
+arrivals: 239
+INFO:root:system events: 102
+time elapsed: 73.7269755761744
+departures: 138
+arrivals: 240
+INFO:root:system events: 103
+time elapsed: 74.02497604554064
+departures: 138
+arrivals: 241
+INFO:root:system events: 104
+time elapsed: 74.67496835104417
+departures: 138
+arrivals: 242
+INFO:root:system events: 105
+time elapsed: 74.87865420439408
+departures: 138
+arrivals: 243
+INFO:root:system events: 104
+time elapsed: 74.91368011483654
+departures: 139
+arrivals: 243
+INFO:root:system events: 103
+time elapsed: 75.34239767180074
+departures: 140
+arrivals: 243
+INFO:root:system events: 104
+time elapsed: 75.88996840953581
+departures: 140
+arrivals: 244
+INFO:root:system events: 103
+time elapsed: 76.2019323303218
+departures: 141
+arrivals: 244
+INFO:root:system events: 104
+time elapsed: 76.68836169800129
+departures: 141
+arrivals: 245
+INFO:root:system events: 105
+time elapsed: 76.74624721888819
+departures: 141
+arrivals: 246
+INFO:root:system events: 104
+time elapsed: 77.04704979174788
+departures: 142
+arrivals: 246
+INFO:root:system events: 105
+time elapsed: 77.07667372044729
+departures: 142
+arrivals: 247
+INFO:root:system events: 106
+time elapsed: 77.09826228570218
+departures: 142
+arrivals: 248
+INFO:root:system events: 107
+time elapsed: 77.28216348994158
+departures: 142
+arrivals: 249
+INFO:root:system events: 106
+time elapsed: 77.3011595186538
+departures: 143
+arrivals: 249
+INFO:root:system events: 107
+time elapsed: 77.38193961796782
+departures: 143
+arrivals: 250
+INFO:root:system events: 108
+time elapsed: 77.39323023644808
+departures: 143
+arrivals: 251
+INFO:root:system events: 107
+time elapsed: 78.24652410493185
+departures: 144
+arrivals: 251
+INFO:root:system events: 108
+time elapsed: 78.45781753080988
+departures: 144
+arrivals: 252
+INFO:root:system events: 107
+time elapsed: 78.46606259685964
+departures: 145
+arrivals: 252
+INFO:root:system events: 106
+time elapsed: 78.47429423778915
+departures: 146
+arrivals: 252
+INFO:root:system events: 105
+time elapsed: 78.57672037179843
+departures: 147
+arrivals: 252
+INFO:root:system events: 106
+time elapsed: 78.60486913469248
+departures: 147
+arrivals: 253
+INFO:root:system events: 105
+time elapsed: 78.83318387085511
+departures: 148
+arrivals: 253
+INFO:root:system events: 104
+time elapsed: 78.88565024678117
+departures: 149
+arrivals: 253
+INFO:root:system events: 105
+time elapsed: 79.48793190717457
+departures: 149
+arrivals: 254
+INFO:root:system events: 106
+time elapsed: 80.16669662969117
+departures: 149
+arrivals: 255
+INFO:root:system events: 105
+time elapsed: 80.33861004893099
+departures: 150
+arrivals: 255
+INFO:root:system events: 106
+time elapsed: 80.3685078889285
+departures: 150
+arrivals: 256
+INFO:root:system events: 107
+time elapsed: 80.45681953355229
+departures: 150
+arrivals: 257
+INFO:root:system events: 106
+time elapsed: 80.5363928454577
+departures: 151
+arrivals: 257
+INFO:root:system events: 105
+time elapsed: 80.55320980720792
+departures: 152
+arrivals: 257
+INFO:root:system events: 104
+time elapsed: 80.56107436772574
+departures: 153
+arrivals: 257
+INFO:root:system events: 105
+time elapsed: 80.77452704607904
+departures: 153
+arrivals: 258
+INFO:root:system events: 106
+time elapsed: 80.7980276947353
+departures: 153
+arrivals: 259
+INFO:root:system events: 105
+time elapsed: 80.84107855740638
+departures: 154
+arrivals: 259
+INFO:root:system events: 106
+time elapsed: 80.89478549853543
+departures: 154
+arrivals: 260
+INFO:root:system events: 105
+time elapsed: 80.96605396790831
+departures: 155
+arrivals: 260
+INFO:root:system events: 106
+time elapsed: 80.99210085699164
+departures: 155
+arrivals: 261
+INFO:root:system events: 107
+time elapsed: 80.99613727191105
+departures: 155
+arrivals: 262
+INFO:root:system events: 106
+time elapsed: 81.03629182438146
+departures: 156
+arrivals: 262
+INFO:root:system events: 107
+time elapsed: 81.03704227596562
+departures: 156
+arrivals: 263
+INFO:root:system events: 106
+time elapsed: 81.51808816698139
+departures: 157
+arrivals: 263
+INFO:root:system events: 107
+time elapsed: 82.25689626112266
+departures: 157
+arrivals: 264
+INFO:root:system events: 108
+time elapsed: 82.43223986035582
+departures: 157
+arrivals: 265
+INFO:root:system events: 109
+time elapsed: 82.49153211395823
+departures: 157
+arrivals: 266
+INFO:root:system events: 110
+time elapsed: 82.83093797610105
+departures: 157
+arrivals: 267
+INFO:root:system events: 111
+time elapsed: 83.05558579319786
+departures: 157
+arrivals: 268
+INFO:root:system events: 110
+time elapsed: 83.83822792936567
+departures: 158
+arrivals: 268
+INFO:root:system events: 109
+time elapsed: 83.87199500830341
+departures: 159
+arrivals: 268
+INFO:root:system events: 110
+time elapsed: 84.57152715614684
+departures: 159
+arrivals: 269
+INFO:root:system events: 109
+time elapsed: 84.63646444347607
+departures: 160
+arrivals: 269
+INFO:root:system events: 110
+time elapsed: 84.6849395599858
+departures: 160
+arrivals: 270
+INFO:root:system events: 109
+time elapsed: 84.77461704114826
+departures: 161
+arrivals: 270
+INFO:root:system events: 108
+time elapsed: 84.91584039825243
+departures: 162
+arrivals: 270
+INFO:root:system events: 109
+time elapsed: 85.04700733133357
+departures: 162
+arrivals: 271
+INFO:root:system events: 110
+time elapsed: 85.28979985846362
+departures: 162
+arrivals: 272
+INFO:root:system events: 109
+time elapsed: 85.46393668386473
+departures: 163
+arrivals: 272
+INFO:root:system events: 110
+time elapsed: 85.47373389980825
+departures: 163
+arrivals: 273
+INFO:root:system events: 111
+time elapsed: 85.58651593951838
+departures: 163
+arrivals: 274
+INFO:root:system events: 110
+time elapsed: 85.86842652847459
+departures: 164
+arrivals: 274
+INFO:root:system events: 111
+time elapsed: 85.99522667550742
+departures: 164
+arrivals: 275
+INFO:root:system events: 110
+time elapsed: 86.13637592540994
+departures: 165
+arrivals: 275
+INFO:root:system events: 111
+time elapsed: 86.144273310314
+departures: 165
+arrivals: 276
+INFO:root:system events: 112
+time elapsed: 87.00754867323967
+departures: 165
+arrivals: 277
+INFO:root:system events: 111
+time elapsed: 87.0184196178497
+departures: 166
+arrivals: 277
+INFO:root:system events: 112
+time elapsed: 87.0232484302287
+departures: 166
+arrivals: 278
+INFO:root:system events: 111
+time elapsed: 87.15081075594054
+departures: 167
+arrivals: 278
+INFO:root:system events: 112
+time elapsed: 87.16608430138518
+departures: 167
+arrivals: 279
+INFO:root:system events: 111
+time elapsed: 87.99441989480252
+departures: 168
+arrivals: 279
+INFO:root:system events: 112
+time elapsed: 88.57708950379511
+departures: 168
+arrivals: 280
+INFO:root:system events: 113
+time elapsed: 89.36153443849389
+departures: 168
+arrivals: 281
+INFO:root:system events: 114
+time elapsed: 89.4787902332923
+departures: 168
+arrivals: 282
+INFO:root:system events: 113
+time elapsed: 89.73084776391903
+departures: 169
+arrivals: 282
+INFO:root:system events: 112
+time elapsed: 89.87430231026215
+departures: 170
+arrivals: 282
+INFO:root:system events: 111
+time elapsed: 89.9302745788373
+departures: 171
+arrivals: 282
+INFO:root:system events: 112
+time elapsed: 91.08869695084235
+departures: 171
+arrivals: 283
+INFO:root:system events: 113
+time elapsed: 91.1773024671284
+departures: 171
+arrivals: 284
+INFO:root:system events: 112
+time elapsed: 91.43775874229406
+departures: 172
+arrivals: 284
+INFO:root:system events: 111
+time elapsed: 91.46782293048578
+departures: 173
+arrivals: 284
+INFO:root:system events: 112
+time elapsed: 91.56744771004793
+departures: 173
+arrivals: 285
+INFO:root:system events: 111
+time elapsed: 92.12380446438891
+departures: 174
+arrivals: 285
+INFO:root:system events: 112
+time elapsed: 92.27901516977428
+departures: 174
+arrivals: 286
+INFO:root:system events: 111
+time elapsed: 92.28283173542431
+departures: 175
+arrivals: 286
+INFO:root:system events: 112
+time elapsed: 92.43785377688712
+departures: 175
+arrivals: 287
+INFO:root:system events: 111
+time elapsed: 92.51727081349517
+departures: 176
+arrivals: 287
+INFO:root:system events: 110
+time elapsed: 92.65304870986414
+departures: 177
+arrivals: 287
+INFO:root:system events: 109
+time elapsed: 92.74733107172625
+departures: 178
+arrivals: 287
+INFO:root:system events: 110
+time elapsed: 92.89834014356025
+departures: 178
+arrivals: 288
+INFO:root:system events: 111
+time elapsed: 93.01936642499979
+departures: 178
+arrivals: 289
+INFO:root:system events: 110
+time elapsed: 93.04560603068893
+departures: 179
+arrivals: 289
+INFO:root:system events: 109
+time elapsed: 93.18134101552687
+departures: 180
+arrivals: 289
+INFO:root:system events: 108
+time elapsed: 93.53030979105881
+departures: 181
+arrivals: 289
+INFO:root:system events: 109
+time elapsed: 93.62854185062648
+departures: 181
+arrivals: 290
+INFO:root:system events: 110
+time elapsed: 93.96358040238829
+departures: 181
+arrivals: 291
+INFO:root:system events: 111
+time elapsed: 94.63677523657749
+departures: 181
+arrivals: 292
+INFO:root:system events: 110
+time elapsed: 94.95902243951802
+departures: 182
+arrivals: 292
+INFO:root:system events: 111
+time elapsed: 95.57574579007671
+departures: 182
+arrivals: 293
+INFO:root:system events: 110
+time elapsed: 95.65370168868932
+departures: 183
+arrivals: 293
+INFO:root:system events: 111
+time elapsed: 95.97659823696003
+departures: 183
+arrivals: 294
+INFO:root:system events: 110
+time elapsed: 97.37417364423156
+departures: 184
+arrivals: 294
+INFO:root:system events: 109
+time elapsed: 97.6747509684196
+departures: 185
+arrivals: 294
+INFO:root:system events: 110
+time elapsed: 97.70497480352599
+departures: 185
+arrivals: 295
+INFO:root:system events: 109
+time elapsed: 97.71150415632411
+departures: 186
+arrivals: 295
+INFO:root:system events: 108
+time elapsed: 97.79415066417657
+departures: 187
+arrivals: 295
+INFO:root:system events: 109
+time elapsed: 97.82045257952238
+departures: 187
+arrivals: 296
+INFO:root:system events: 110
+time elapsed: 97.86736763062669
+departures: 187
+arrivals: 297
+INFO:root:system events: 109
+time elapsed: 98.06435201563042
+departures: 188
+arrivals: 297
+INFO:root:system events: 110
+time elapsed: 98.17624716292211
+departures: 188
+arrivals: 298
+INFO:root:system events: 109
+time elapsed: 98.30563962372538
+departures: 189
+arrivals: 298
+INFO:root:system events: 110
+time elapsed: 98.92873942525966
+departures: 189
+arrivals: 299
+INFO:root:system events: 111
+time elapsed: 99.19260912711702
+departures: 189
+arrivals: 300
+INFO:root:system events: 112
+time elapsed: 99.29972256105901
+departures: 189
+arrivals: 301
+INFO:root:system events: 113
+time elapsed: 99.59874023305156
+departures: 189
+arrivals: 302
+INFO:root:system events: 112
+time elapsed: 100.02345130773766
+departures: 190
+arrivals: 302
+INFO:root:system events: 111
+time elapsed: 100.28450696338832
+departures: 191
+arrivals: 302
+INFO:root:system events: 112
+time elapsed: 100.35564360736858
+departures: 191
+arrivals: 303
+INFO:root:system events: 113
+time elapsed: 100.46130273301003
+departures: 191
+arrivals: 304
+INFO:root:system events: 114
+time elapsed: 100.66389765624103
+departures: 191
+arrivals: 305
+INFO:root:system events: 113
+time elapsed: 100.68607535668441
+departures: 192
+arrivals: 305
+INFO:root:system events: 112
+time elapsed: 100.82885982009847
+departures: 193
+arrivals: 305
+INFO:root:system events: 113
+time elapsed: 100.83512619020995
+departures: 193
+arrivals: 306
+INFO:root:system events: 114
+time elapsed: 100.95899810869847
+departures: 193
+arrivals: 307
+INFO:root:system events: 115
+time elapsed: 101.11461955675537
+departures: 193
+arrivals: 308
+INFO:root:system events: 114
+time elapsed: 101.18133448023868
+departures: 194
+arrivals: 308
+INFO:root:system events: 115
+time elapsed: 101.3627456401055
+departures: 194
+arrivals: 309
+INFO:root:system events: 116
+time elapsed: 101.4979877537433
+departures: 194
+arrivals: 310
+INFO:root:system events: 115
+time elapsed: 101.87567312511689
+departures: 195
+arrivals: 310
+INFO:root:system events: 116
+time elapsed: 102.35769213982854
+departures: 195
+arrivals: 311
+INFO:root:system events: 117
+time elapsed: 102.37433067583459
+departures: 195
+arrivals: 312
+INFO:root:system events: 118
+time elapsed: 102.47184754368425
+departures: 195
+arrivals: 313
+INFO:root:system events: 119
+time elapsed: 102.66879262029902
+departures: 195
+arrivals: 314
+INFO:root:system events: 120
+time elapsed: 102.70563124708107
+departures: 195
+arrivals: 315
+INFO:root:system events: 121
+time elapsed: 102.84844492314696
+departures: 195
+arrivals: 316
+INFO:root:system events: 120
+time elapsed: 102.86707941135958
+departures: 196
+arrivals: 316
+INFO:root:system events: 121
+time elapsed: 103.29759452876803
+departures: 196
+arrivals: 317
+INFO:root:system events: 120
+time elapsed: 103.4376010766508
+departures: 197
+arrivals: 317
+INFO:root:system events: 121
+time elapsed: 103.6222207313191
+departures: 197
+arrivals: 318
+INFO:root:system events: 122
+time elapsed: 103.69865979054877
+departures: 197
+arrivals: 319
+INFO:root:system events: 123
+time elapsed: 103.8380236775057
+departures: 197
+arrivals: 320
+INFO:root:system events: 122
+time elapsed: 104.05745012483003
+departures: 198
+arrivals: 320
+INFO:root:system events: 123
+time elapsed: 104.21394382599684
+departures: 198
+arrivals: 321
+INFO:root:system events: 124
+time elapsed: 104.47546272475599
+departures: 198
+arrivals: 322
+INFO:root:system events: 125
+time elapsed: 104.5862162678317
+departures: 198
+arrivals: 323
+INFO:root:system events: 126
+time elapsed: 104.59645019147425
+departures: 198
+arrivals: 324
+INFO:root:system events: 127
+time elapsed: 105.00946236156184
+departures: 198
+arrivals: 325
+INFO:root:system events: 128
+time elapsed: 105.01210081068878
+departures: 198
+arrivals: 326
+INFO:root:system events: 127
+time elapsed: 105.11440352899717
+departures: 199
+arrivals: 326
+INFO:root:system events: 128
+time elapsed: 105.16753315033368
+departures: 199
+arrivals: 327
+INFO:root:system events: 127
+time elapsed: 105.49248665285711
+departures: 200
+arrivals: 327
+INFO:root:system events: 126
+time elapsed: 105.53936434718457
+departures: 201
+arrivals: 327
+INFO:root:system events: 125
+time elapsed: 105.79975377881958
+departures: 202
+arrivals: 327
+INFO:root:system events: 124
+time elapsed: 105.81206060152522
+departures: 203
+arrivals: 327
+INFO:root:system events: 125
+time elapsed: 106.01835864076628
+departures: 203
+arrivals: 328
+INFO:root:system events: 124
+time elapsed: 106.02180026485313
+departures: 204
+arrivals: 328
+INFO:root:system events: 123
+time elapsed: 106.1854054587465
+departures: 205
+arrivals: 328
+INFO:root:system events: 122
+time elapsed: 106.30310839083627
+departures: 206
+arrivals: 328
+INFO:root:system events: 123
+time elapsed: 106.34284948644435
+departures: 206
+arrivals: 329
+INFO:root:system events: 122
+time elapsed: 106.36458967272434
+departures: 207
+arrivals: 329
+INFO:root:system events: 123
+time elapsed: 106.62975438679662
+departures: 207
+arrivals: 330
+INFO:root:system events: 122
+time elapsed: 106.95875425258168
+departures: 208
+arrivals: 330
+INFO:root:system events: 123
+time elapsed: 107.00129139020304
+departures: 208
+arrivals: 331
+INFO:root:system events: 124
+time elapsed: 107.00219368159438
+departures: 208
+arrivals: 332
+INFO:root:system events: 125
+time elapsed: 107.34947517175009
+departures: 208
+arrivals: 333
+INFO:root:system events: 126
+time elapsed: 107.65523244032137
+departures: 208
+arrivals: 334
+INFO:root:system events: 127
+time elapsed: 107.95140867789196
+departures: 208
+arrivals: 335
+INFO:root:system events: 126
+time elapsed: 108.44535838690946
+departures: 209
+arrivals: 335
+INFO:root:system events: 125
+time elapsed: 108.45386619763191
+departures: 210
+arrivals: 335
+INFO:root:system events: 126
+time elapsed: 109.04829167191271
+departures: 210
+arrivals: 336
+INFO:root:system events: 125
+time elapsed: 109.05002408823229
+departures: 211
+arrivals: 336
+INFO:root:system events: 124
+time elapsed: 109.40650233272552
+departures: 212
+arrivals: 336
+INFO:root:system events: 125
+time elapsed: 109.60838580732377
+departures: 212
+arrivals: 337
+INFO:root:system events: 124
+time elapsed: 109.6097087634654
+departures: 213
+arrivals: 337
+INFO:root:system events: 123
+time elapsed: 109.66085965466121
+departures: 214
+arrivals: 337
+INFO:root:system events: 122
+time elapsed: 109.95258974743116
+departures: 215
+arrivals: 337
+INFO:root:system events: 123
+time elapsed: 110.12993799067625
+departures: 215
+arrivals: 338
+INFO:root:system events: 122
+time elapsed: 110.31952472761019
+departures: 216
+arrivals: 338
+INFO:root:system events: 121
+time elapsed: 110.36716697029523
+departures: 217
+arrivals: 338
+INFO:root:system events: 120
+time elapsed: 110.49639659577838
+departures: 218
+arrivals: 338
+INFO:root:system events: 121
+time elapsed: 110.52461390375898
+departures: 218
+arrivals: 339
+INFO:root:system events: 120
+time elapsed: 110.76046859375536
+departures: 219
+arrivals: 339
+INFO:root:system events: 121
+time elapsed: 110.85004457816268
+departures: 219
+arrivals: 340
+INFO:root:system events: 122
+time elapsed: 111.17154449701984
+departures: 219
+arrivals: 341
+INFO:root:system events: 123
+time elapsed: 111.21929406557
+departures: 219
+arrivals: 342
+INFO:root:system events: 122
+time elapsed: 111.85047881956129
+departures: 220
+arrivals: 342
+INFO:root:system events: 123
+time elapsed: 112.53311361683616
+departures: 220
+arrivals: 343
+INFO:root:system events: 124
+time elapsed: 112.76598147078992
+departures: 220
+arrivals: 344
+INFO:root:system events: 123
+time elapsed: 112.87750505322524
+departures: 221
+arrivals: 344
+INFO:root:system events: 122
+time elapsed: 113.26727256786126
+departures: 222
+arrivals: 344
+INFO:root:system events: 123
+time elapsed: 113.61782071702214
+departures: 222
+arrivals: 345
+INFO:root:system events: 124
+time elapsed: 114.20827182035413
+departures: 222
+arrivals: 346
+INFO:root:system events: 123
+time elapsed: 114.55123891072242
+departures: 223
+arrivals: 346
+INFO:root:system events: 124
+time elapsed: 115.35860848456166
+departures: 223
+arrivals: 347
+INFO:root:system events: 125
+time elapsed: 115.37084150633066
+departures: 223
+arrivals: 348
+INFO:root:system events: 126
+time elapsed: 115.43487336374221
+departures: 223
+arrivals: 349
+INFO:root:system events: 127
+time elapsed: 115.59916628537366
+departures: 223
+arrivals: 350
+INFO:root:system events: 126
+time elapsed: 115.81274763953519
+departures: 224
+arrivals: 350
+INFO:root:system events: 125
+time elapsed: 115.9911057686998
+departures: 225
+arrivals: 350
+INFO:root:system events: 124
+time elapsed: 116.07856089924185
+departures: 226
+arrivals: 350
+INFO:root:system events: 125
+time elapsed: 116.61234347074775
+departures: 226
+arrivals: 351
+INFO:root:system events: 126
+time elapsed: 116.80944439977803
+departures: 226
+arrivals: 352
+INFO:root:system events: 125
+time elapsed: 117.16567735806579
+departures: 227
+arrivals: 352
+INFO:root:system events: 124
+time elapsed: 117.25299125279403
+departures: 228
+arrivals: 352
+INFO:root:system events: 125
+time elapsed: 117.60431619314495
+departures: 228
+arrivals: 353
+INFO:root:system events: 124
+time elapsed: 117.79404218945032
+departures: 229
+arrivals: 353
+INFO:root:system events: 125
+time elapsed: 117.79774605761088
+departures: 229
+arrivals: 354
+INFO:root:system events: 124
+time elapsed: 117.83382726568107
+departures: 230
+arrivals: 354
+INFO:root:system events: 123
+time elapsed: 117.97593713931873
+departures: 231
+arrivals: 354
+INFO:root:system events: 122
+time elapsed: 117.99614792801118
+departures: 232
+arrivals: 354
+INFO:root:system events: 121
+time elapsed: 118.0270560021574
+departures: 233
+arrivals: 354
+INFO:root:system events: 120
+time elapsed: 118.05856772331768
+departures: 234
+arrivals: 354
+INFO:root:system events: 121
+time elapsed: 118.19516347142147
+departures: 234
+arrivals: 355
+INFO:root:system events: 122
+time elapsed: 118.64403923066033
+departures: 234
+arrivals: 356
+INFO:root:system events: 121
+time elapsed: 119.25010185852504
+departures: 235
+arrivals: 356
+INFO:root:system events: 122
+time elapsed: 119.4051705632864
+departures: 235
+arrivals: 357
+INFO:root:system events: 123
+time elapsed: 119.65609378124827
+departures: 235
+arrivals: 358
+INFO:root:system events: 124
+time elapsed: 119.7771094987389
+departures: 235
+arrivals: 359
+INFO:root:system events: 123
+time elapsed: 119.80836115237463
+departures: 236
+arrivals: 359
+INFO:root:system events: 122
+time elapsed: 120.0332178374636
+departures: 237
+arrivals: 359
+INFO:root:system events: 121
+time elapsed: 120.35126956503608
+departures: 238
+arrivals: 359
+INFO:root:system events: 120
+time elapsed: 120.58887428296197
+departures: 239
+arrivals: 359
+INFO:root:system events: 121
+time elapsed: 121.84241272307875
+departures: 239
+arrivals: 360
+INFO:root:system events: 122
+time elapsed: 121.90639868976047
+departures: 239
+arrivals: 361
+INFO:root:system events: 123
+time elapsed: 122.03889171736941
+departures: 239
+arrivals: 362
+INFO:root:system events: 124
+time elapsed: 122.4190665368729
+departures: 239
+arrivals: 363
+INFO:root:system events: 125
+time elapsed: 122.44083106988347
+departures: 239
+arrivals: 364
+INFO:root:system events: 124
+time elapsed: 122.53319672422239
+departures: 240
+arrivals: 364
+INFO:root:system events: 125
+time elapsed: 122.75235787254609
+departures: 240
+arrivals: 365
+INFO:root:system events: 124
+time elapsed: 122.85790208559216
+departures: 241
+arrivals: 365
+INFO:root:system events: 125
+time elapsed: 122.86371623240153
+departures: 241
+arrivals: 366
+INFO:root:system events: 124
+time elapsed: 122.99407770251473
+departures: 242
+arrivals: 366
+INFO:root:system events: 125
+time elapsed: 123.10458364552768
+departures: 242
+arrivals: 367
+INFO:root:system events: 124
+time elapsed: 123.22345335433579
+departures: 243
+arrivals: 367
+INFO:root:system events: 125
+time elapsed: 123.307837702711
+departures: 243
+arrivals: 368
+INFO:root:system events: 124
+time elapsed: 123.42930364482145
+departures: 244
+arrivals: 368
+INFO:root:system events: 123
+time elapsed: 123.50091528101129
+departures: 245
+arrivals: 368
+INFO:root:system events: 122
+time elapsed: 123.55182310251854
+departures: 246
+arrivals: 368
+INFO:root:system events: 121
+time elapsed: 123.76215694100115
+departures: 247
+arrivals: 368
+INFO:root:system events: 120
+time elapsed: 124.20920988970211
+departures: 248
+arrivals: 368
+INFO:root:system events: 121
+time elapsed: 124.48222145673624
+departures: 248
+arrivals: 369
+INFO:root:system events: 122
+time elapsed: 124.65097610872219
+departures: 248
+arrivals: 370
+INFO:root:system events: 121
+time elapsed: 124.74740511390773
+departures: 249
+arrivals: 370
+INFO:root:system events: 120
+time elapsed: 124.96425484737297
+departures: 250
+arrivals: 370
+INFO:root:system events: 119
+time elapsed: 125.60325592324027
+departures: 251
+arrivals: 370
+INFO:root:system events: 118
+time elapsed: 126.11073540001775
+departures: 252
+arrivals: 370
+INFO:root:system events: 117
+time elapsed: 126.94920277120532
+departures: 253
+arrivals: 370
+INFO:root:system events: 118
+time elapsed: 127.06213510907595
+departures: 253
+arrivals: 371
+INFO:root:system events: 119
+time elapsed: 127.79726871571096
+departures: 253
+arrivals: 372
+INFO:root:system events: 120
+time elapsed: 128.27937123601532
+departures: 253
+arrivals: 373
+INFO:root:system events: 121
+time elapsed: 128.67875502751681
+departures: 253
+arrivals: 374
+INFO:root:system events: 122
+time elapsed: 128.81499424298167
+departures: 253
+arrivals: 375
+INFO:root:system events: 121
+time elapsed: 128.81877705943708
+departures: 254
+arrivals: 375
+INFO:root:system events: 120
+time elapsed: 128.85111886023293
+departures: 255
+arrivals: 375
+INFO:root:system events: 121
+time elapsed: 128.86826083650425
+departures: 255
+arrivals: 376
+INFO:root:system events: 120
+time elapsed: 128.98958997218932
+departures: 256
+arrivals: 376
+INFO:root:system events: 121
+time elapsed: 129.0569706860223
+departures: 256
+arrivals: 377
+INFO:root:system events: 120
+time elapsed: 129.35865834757328
+departures: 257
+arrivals: 377
+INFO:root:system events: 121
+time elapsed: 129.55136182228748
+departures: 257
+arrivals: 378
+INFO:root:system events: 122
+time elapsed: 129.59295951868808
+departures: 257
+arrivals: 379
+INFO:root:system events: 123
+time elapsed: 129.6306839634853
+departures: 257
+arrivals: 380
+INFO:root:system events: 124
+time elapsed: 129.92763523626155
+departures: 257
+arrivals: 381
+INFO:root:system events: 125
+time elapsed: 130.38365324555252
+departures: 257
+arrivals: 382
+INFO:root:system events: 124
+time elapsed: 130.95260041922097
+departures: 258
+arrivals: 382
+INFO:root:system events: 125
+time elapsed: 131.01194144296855
+departures: 258
+arrivals: 383
+INFO:root:system events: 124
+time elapsed: 132.32572636173302
+departures: 259
+arrivals: 383
+INFO:root:system events: 125
+time elapsed: 132.37858634082542
+departures: 259
+arrivals: 384
+INFO:root:system events: 126
+time elapsed: 132.53811186273302
+departures: 259
+arrivals: 385
+INFO:root:system events: 125
+time elapsed: 132.58097394444013
+departures: 260
+arrivals: 385
+INFO:root:system events: 126
+time elapsed: 132.59142660256472
+departures: 260
+arrivals: 386
+INFO:root:system events: 127
+time elapsed: 132.94787029383377
+departures: 260
+arrivals: 387
+INFO:root:system events: 126
+time elapsed: 133.15846120976488
+departures: 261
+arrivals: 387
+INFO:root:system events: 125
+time elapsed: 133.2096204472154
+departures: 262
+arrivals: 387
+INFO:root:system events: 124
+time elapsed: 133.5539758728591
+departures: 263
+arrivals: 387
+INFO:root:system events: 125
+time elapsed: 133.60818872378513
+departures: 263
+arrivals: 388
+INFO:root:system events: 126
+time elapsed: 133.70035128516133
+departures: 263
+arrivals: 389
+INFO:root:system events: 127
+time elapsed: 133.76206997101244
+departures: 263
+arrivals: 390
+INFO:root:system events: 126
+time elapsed: 133.98901583005403
+departures: 264
+arrivals: 390
+INFO:root:system events: 125
+time elapsed: 134.0191748419029
+departures: 265
+arrivals: 390
+INFO:root:system events: 124
+time elapsed: 134.33720007991528
+departures: 266
+arrivals: 390
+INFO:root:system events: 123
+time elapsed: 134.39875530623496
+departures: 267
+arrivals: 390
+INFO:root:system events: 124
+time elapsed: 134.4164444056681
+departures: 267
+arrivals: 391
+INFO:root:system events: 123
+time elapsed: 134.7041323967269
+departures: 268
+arrivals: 391
+INFO:root:system events: 122
+time elapsed: 134.97970136930837
+departures: 269
+arrivals: 391
+INFO:root:system events: 123
+time elapsed: 135.71982477048456
+departures: 269
+arrivals: 392
+INFO:root:system events: 124
+time elapsed: 135.76142061034577
+departures: 269
+arrivals: 393
+INFO:root:system events: 125
+time elapsed: 135.8668964073726
+departures: 269
+arrivals: 394
+INFO:root:system events: 124
+time elapsed: 135.9525936590441
+departures: 270
+arrivals: 394
+INFO:root:system events: 125
+time elapsed: 136.0392853813092
+departures: 270
+arrivals: 395
+INFO:root:system events: 124
+time elapsed: 136.20784994543766
+departures: 271
+arrivals: 395
+INFO:root:system events: 125
+time elapsed: 136.41023998021143
+departures: 271
+arrivals: 396
+INFO:root:system events: 124
+time elapsed: 136.41919484345357
+departures: 272
+arrivals: 396
+INFO:root:system events: 125
+time elapsed: 136.82722286514255
+departures: 272
+arrivals: 397
+INFO:root:system events: 124
+time elapsed: 136.92889243400455
+departures: 273
+arrivals: 397
+INFO:root:system events: 125
+time elapsed: 136.9970323681237
+departures: 273
+arrivals: 398
+INFO:root:system events: 124
+time elapsed: 137.21149825347516
+departures: 274
+arrivals: 398
+INFO:root:system events: 123
+time elapsed: 137.24780628328057
+departures: 275
+arrivals: 398
+INFO:root:system events: 124
+time elapsed: 137.31479434905788
+departures: 275
+arrivals: 399
+INFO:root:system events: 125
+time elapsed: 137.6680093347177
+departures: 275
+arrivals: 400
+INFO:root:system events: 126
+time elapsed: 138.09996860954146
+departures: 275
+arrivals: 401
+INFO:root:system events: 125
+time elapsed: 138.11193597844846
+departures: 276
+arrivals: 401
+INFO:root:system events: 124
+time elapsed: 138.1704709983305
+departures: 277
+arrivals: 401
+INFO:root:system events: 125
+time elapsed: 138.3565892543299
+departures: 277
+arrivals: 402
+INFO:root:system events: 124
+time elapsed: 138.4300978630847
+departures: 278
+arrivals: 402
+INFO:root:system events: 125
+time elapsed: 138.529863234651
+departures: 278
+arrivals: 403
+INFO:root:system events: 126
+time elapsed: 138.5399992337702
+departures: 278
+arrivals: 404
+INFO:root:system events: 125
+time elapsed: 138.62369659667877
+departures: 279
+arrivals: 404
+INFO:root:system events: 124
+time elapsed: 138.68184242849128
+departures: 280
+arrivals: 404
+INFO:root:system events: 125
+time elapsed: 138.98552203918678
+departures: 280
+arrivals: 405
+INFO:root:system events: 124
+time elapsed: 139.1479357981021
+departures: 281
+arrivals: 405
+INFO:root:system events: 125
+time elapsed: 139.39044061244937
+departures: 281
+arrivals: 406
+INFO:root:system events: 124
+time elapsed: 139.65157213813666
+departures: 282
+arrivals: 406
+INFO:root:system events: 123
+time elapsed: 139.7060880699251
+departures: 283
+arrivals: 406
+INFO:root:system events: 124
+time elapsed: 140.45632688098252
+departures: 283
+arrivals: 407
+INFO:root:system events: 125
+time elapsed: 140.46620179641926
+departures: 283
+arrivals: 408
+INFO:root:system events: 124
+time elapsed: 140.715419958234
+departures: 284
+arrivals: 408
+INFO:root:system events: 125
+time elapsed: 140.72138149067604
+departures: 284
+arrivals: 409
+INFO:root:system events: 126
+time elapsed: 140.96895607757614
+departures: 284
+arrivals: 410
+INFO:root:system events: 125
+time elapsed: 140.97438168343976
+departures: 285
+arrivals: 410
+INFO:root:system events: 124
+time elapsed: 141.08009226911187
+departures: 286
+arrivals: 410
+INFO:root:system events: 123
+time elapsed: 141.08974632160695
+departures: 287
+arrivals: 410
+INFO:root:system events: 124
+time elapsed: 141.12038527063245
+departures: 287
+arrivals: 411
+INFO:root:system events: 123
+time elapsed: 141.4548073367266
+departures: 288
+arrivals: 411
+INFO:root:system events: 122
+time elapsed: 141.6883839490781
+departures: 289
+arrivals: 411
+INFO:root:system events: 123
+time elapsed: 141.73708167925875
+departures: 289
+arrivals: 412
+INFO:root:system events: 124
+time elapsed: 141.76506835953936
+departures: 289
+arrivals: 413
+INFO:root:system events: 125
+time elapsed: 141.79479205225306
+departures: 289
+arrivals: 414
+INFO:root:system events: 124
+time elapsed: 141.814453787869
+departures: 290
+arrivals: 414
+INFO:root:system events: 123
+time elapsed: 141.86714185738202
+departures: 291
+arrivals: 414
+INFO:root:system events: 124
+time elapsed: 141.8782098121161
+departures: 291
+arrivals: 415
+INFO:root:system events: 125
+time elapsed: 141.90102277119553
+departures: 291
+arrivals: 416
+INFO:root:system events: 126
+time elapsed: 141.92364139647435
+departures: 291
+arrivals: 417
+INFO:root:system events: 125
+time elapsed: 142.02111125368614
+departures: 292
+arrivals: 417
+INFO:root:system events: 124
+time elapsed: 142.10955160268492
+departures: 293
+arrivals: 417
+INFO:root:system events: 123
+time elapsed: 142.51968110643443
+departures: 294
+arrivals: 417
+INFO:root:system events: 124
+time elapsed: 142.57026197480948
+departures: 294
+arrivals: 418
+INFO:root:system events: 125
+time elapsed: 142.77344837252357
+departures: 294
+arrivals: 419
+INFO:root:system events: 126
+time elapsed: 142.82894510260442
+departures: 294
+arrivals: 420
+INFO:root:system events: 127
+time elapsed: 142.90315805471917
+departures: 294
+arrivals: 421
+INFO:root:system events: 128
+time elapsed: 143.09228076163885
+departures: 294
+arrivals: 422
+INFO:root:system events: 127
+time elapsed: 143.26208814721923
+departures: 295
+arrivals: 422
+INFO:root:system events: 128
+time elapsed: 143.3427048843291
+departures: 295
+arrivals: 423
+INFO:root:system events: 127
+time elapsed: 143.4770492459497
+departures: 296
+arrivals: 423
+INFO:root:system events: 128
+time elapsed: 143.84966351967378
+departures: 296
+arrivals: 424
+INFO:root:system events: 127
+time elapsed: 144.1722439106975
+departures: 297
+arrivals: 424
+INFO:root:system events: 126
+time elapsed: 144.18693388256523
+departures: 298
+arrivals: 424
+INFO:root:system events: 127
+time elapsed: 144.72306402838203
+departures: 298
+arrivals: 425
+INFO:root:system events: 128
+time elapsed: 144.88923614245374
+departures: 298
+arrivals: 426
+INFO:root:system events: 127
+time elapsed: 145.31713409404318
+departures: 299
+arrivals: 426
+INFO:root:system events: 128
+time elapsed: 145.5915001910263
+departures: 299
+arrivals: 427
+INFO:root:system events: 127
+time elapsed: 145.9039929576668
+departures: 300
+arrivals: 427
+INFO:root:system events: 126
+time elapsed: 146.61605847348855
+departures: 301
+arrivals: 427
+INFO:root:system events: 125
+time elapsed: 146.84276517983145
+departures: 302
+arrivals: 427
+INFO:root:system events: 126
+time elapsed: 147.048166795564
+departures: 302
+arrivals: 428
+INFO:root:system events: 125
+time elapsed: 147.19040307488754
+departures: 303
+arrivals: 428
+INFO:root:system events: 126
+time elapsed: 147.20557637933254
+departures: 303
+arrivals: 429
+INFO:root:system events: 127
+time elapsed: 147.306352424952
+departures: 303
+arrivals: 430
+INFO:root:system events: 126
+time elapsed: 147.4173987992953
+departures: 304
+arrivals: 430
+INFO:root:system events: 127
+time elapsed: 147.53472578325082
+departures: 304
+arrivals: 431
+INFO:root:system events: 128
+time elapsed: 147.6429980518013
+departures: 304
+arrivals: 432
+INFO:root:system events: 129
+time elapsed: 147.8907099403651
+departures: 304
+arrivals: 433
+INFO:root:system events: 130
+time elapsed: 147.9323302254898
+departures: 304
+arrivals: 434
+INFO:root:system events: 129
+time elapsed: 147.989842023097
+departures: 305
+arrivals: 434
+INFO:root:system events: 130
+time elapsed: 147.9903866327524
+departures: 305
+arrivals: 435
+INFO:root:system events: 129
+time elapsed: 148.01381062334409
+departures: 306
+arrivals: 435
+INFO:root:system events: 128
+time elapsed: 148.01574453429353
+departures: 307
+arrivals: 435
+INFO:root:system events: 127
+time elapsed: 148.1141048793917
+departures: 308
+arrivals: 435
+INFO:root:system events: 126
+time elapsed: 148.58859804840233
+departures: 309
+arrivals: 435
+INFO:root:system events: 125
+time elapsed: 148.631033754678
+departures: 310
+arrivals: 435
+INFO:root:system events: 126
+time elapsed: 149.16746712317945
+departures: 310
+arrivals: 436
+INFO:root:system events: 127
+time elapsed: 149.5913371285129
+departures: 310
+arrivals: 437
+INFO:root:system events: 126
+time elapsed: 149.69913072794674
+departures: 311
+arrivals: 437
+INFO:root:system events: 125
+time elapsed: 150.05339876748405
+departures: 312
+arrivals: 437
+INFO:root:system events: 124
+time elapsed: 150.2320246677415
+departures: 313
+arrivals: 437
+INFO:root:system events: 123
+time elapsed: 150.63072390444162
+departures: 314
+arrivals: 437
+INFO:root:system events: 124
+time elapsed: 150.72231405765814
+departures: 314
+arrivals: 438
+INFO:root:system events: 125
+time elapsed: 150.9674996450639
+departures: 314
+arrivals: 439
+INFO:root:system events: 126
+time elapsed: 151.07113033224732
+departures: 314
+arrivals: 440
+INFO:root:system events: 127
+time elapsed: 151.77073645868003
+departures: 314
+arrivals: 441
+INFO:root:system events: 128
+time elapsed: 151.9257650385245
+departures: 314
+arrivals: 442
+INFO:root:system events: 129
+time elapsed: 151.92622647442815
+departures: 314
+arrivals: 443
+INFO:root:system events: 128
+time elapsed: 151.96623637150648
+departures: 315
+arrivals: 443
+INFO:root:system events: 129
+time elapsed: 152.02109320431416
+departures: 315
+arrivals: 444
+INFO:root:system events: 128
+time elapsed: 152.1577704058014
+departures: 316
+arrivals: 444
+INFO:root:system events: 127
+time elapsed: 152.46447943642625
+departures: 317
+arrivals: 444
+INFO:root:system events: 128
+time elapsed: 152.67356600205582
+departures: 317
+arrivals: 445
+INFO:root:system events: 127
+time elapsed: 152.75850134443775
+departures: 318
+arrivals: 445
+INFO:root:system events: 128
+time elapsed: 152.8101083877324
+departures: 318
+arrivals: 446
+INFO:root:system events: 129
+time elapsed: 153.77707807632007
+departures: 318
+arrivals: 447
+INFO:root:system events: 128
+time elapsed: 153.82146663896074
+departures: 319
+arrivals: 447
+INFO:root:system events: 127
+time elapsed: 154.0578634112509
+departures: 320
+arrivals: 447
+INFO:root:system events: 128
+time elapsed: 155.3819774089687
+departures: 320
+arrivals: 448
+INFO:root:system events: 127
+time elapsed: 155.75073382172081
+departures: 321
+arrivals: 448
+INFO:root:system events: 128
+time elapsed: 155.90519020052636
+departures: 321
+arrivals: 449
+INFO:root:system events: 129
+time elapsed: 155.99882058571714
+departures: 321
+arrivals: 450
+INFO:root:system events: 130
+time elapsed: 156.08013047564486
+departures: 321
+arrivals: 451
+INFO:root:system events: 131
+time elapsed: 156.14065688291763
+departures: 321
+arrivals: 452
+INFO:root:system events: 130
+time elapsed: 156.31376022286523
+departures: 322
+arrivals: 452
+INFO:root:system events: 129
+time elapsed: 156.48788454003017
+departures: 323
+arrivals: 452
+INFO:root:system events: 128
+time elapsed: 156.78962393330917
+departures: 324
+arrivals: 452
+INFO:root:system events: 129
+time elapsed: 156.99425486162627
+departures: 324
+arrivals: 453
+INFO:root:system events: 128
+time elapsed: 157.13019157387194
+departures: 325
+arrivals: 453
+INFO:root:system events: 129
+time elapsed: 157.4962052444497
+departures: 325
+arrivals: 454
+INFO:root:system events: 130
+time elapsed: 157.54612031650137
+departures: 325
+arrivals: 455
+INFO:root:system events: 131
+time elapsed: 157.73168787169104
+departures: 325
+arrivals: 456
+INFO:root:system events: 130
+time elapsed: 158.05989485934143
+departures: 326
+arrivals: 456
+INFO:root:system events: 131
+time elapsed: 158.34854974476303
+departures: 326
+arrivals: 457
+INFO:root:system events: 132
+time elapsed: 158.38456510222147
+departures: 326
+arrivals: 458
+INFO:root:system events: 133
+time elapsed: 158.44125079968424
+departures: 326
+arrivals: 459
+INFO:root:system events: 134
+time elapsed: 158.5621478449642
+departures: 326
+arrivals: 460
+INFO:root:system events: 135
+time elapsed: 158.58826444483918
+departures: 326
+arrivals: 461
+INFO:root:system events: 136
+time elapsed: 158.772530887455
+departures: 326
+arrivals: 462
+INFO:root:system events: 137
+time elapsed: 158.81048443963704
+departures: 326
+arrivals: 463
+INFO:root:system events: 136
+time elapsed: 158.91186066299647
+departures: 327
+arrivals: 463
+INFO:root:system events: 135
+time elapsed: 159.05341157843282
+departures: 328
+arrivals: 463
+INFO:root:system events: 136
+time elapsed: 159.09042894186456
+departures: 328
+arrivals: 464
+INFO:root:system events: 137
+time elapsed: 159.13210412443505
+departures: 328
+arrivals: 465
+INFO:root:system events: 136
+time elapsed: 159.50711803838206
+departures: 329
+arrivals: 465
+INFO:root:system events: 137
+time elapsed: 160.37372889182848
+departures: 329
+arrivals: 466
+INFO:root:system events: 138
+time elapsed: 160.53947771521243
+departures: 329
+arrivals: 467
+INFO:root:system events: 139
+time elapsed: 160.6319135596805
+departures: 329
+arrivals: 468
+INFO:root:system events: 140
+time elapsed: 160.72798461432293
+departures: 329
+arrivals: 469
+INFO:root:system events: 139
+time elapsed: 160.85538544650146
+departures: 330
+arrivals: 469
+INFO:root:system events: 138
+time elapsed: 160.8757926947656
+departures: 331
+arrivals: 469
+INFO:root:system events: 139
+time elapsed: 160.94814257574708
+departures: 331
+arrivals: 470
+INFO:root:system events: 140
+time elapsed: 161.12306272392658
+departures: 331
+arrivals: 471
+INFO:root:system events: 141
+time elapsed: 161.2810165831633
+departures: 331
+arrivals: 472
+INFO:root:system events: 140
+time elapsed: 161.386208911296
+departures: 332
+arrivals: 472
+INFO:root:system events: 141
+time elapsed: 161.83348142463763
+departures: 332
+arrivals: 473
+INFO:root:system events: 140
+time elapsed: 162.00348584906385
+departures: 333
+arrivals: 473
+INFO:root:system events: 139
+time elapsed: 162.2203689456506
+departures: 334
+arrivals: 473
+INFO:root:system events: 140
+time elapsed: 162.86228049061168
+departures: 334
+arrivals: 474
+INFO:root:system events: 141
+time elapsed: 163.3521249278641
+departures: 334
+arrivals: 475
+INFO:root:system events: 140
+time elapsed: 163.35952383742773
+departures: 335
+arrivals: 475
+INFO:root:system events: 141
+time elapsed: 163.49954865963286
+departures: 335
+arrivals: 476
+INFO:root:system events: 142
+time elapsed: 163.6130413897872
+departures: 335
+arrivals: 477
+INFO:root:system events: 141
+time elapsed: 163.84551203046504
+departures: 336
+arrivals: 477
+INFO:root:system events: 140
+time elapsed: 163.90514446290857
+departures: 337
+arrivals: 477
+INFO:root:system events: 139
+time elapsed: 164.02454874341763
+departures: 338
+arrivals: 477
+INFO:root:system events: 138
+time elapsed: 164.12562721048374
+departures: 339
+arrivals: 477
+INFO:root:system events: 139
+time elapsed: 164.30459217802593
+departures: 339
+arrivals: 478
+INFO:root:system events: 138
+time elapsed: 164.3835680713108
+departures: 340
+arrivals: 478
+INFO:root:system events: 137
+time elapsed: 164.75780019214326
+departures: 341
+arrivals: 478
+INFO:root:system events: 138
+time elapsed: 164.76039408473773
+departures: 341
+arrivals: 479
+INFO:root:system events: 139
+time elapsed: 164.76057612273442
+departures: 341
+arrivals: 480
+INFO:root:system events: 140
+time elapsed: 164.94527083445035
+departures: 341
+arrivals: 481
+INFO:root:system events: 141
+time elapsed: 164.96715856105737
+departures: 341
+arrivals: 482
+INFO:root:system events: 142
+time elapsed: 165.04499646141818
+departures: 341
+arrivals: 483
+INFO:root:system events: 141
+time elapsed: 165.09219952869086
+departures: 342
+arrivals: 483
+INFO:root:system events: 140
+time elapsed: 165.213489006982
+departures: 343
+arrivals: 483
+INFO:root:system events: 141
+time elapsed: 165.94301567461977
+departures: 343
+arrivals: 484
+INFO:root:system events: 140
+time elapsed: 166.19064340175555
+departures: 344
+arrivals: 484
+INFO:root:system events: 139
+time elapsed: 166.2773121611162
+departures: 345
+arrivals: 484
+INFO:root:system events: 140
+time elapsed: 166.48435248647414
+departures: 345
+arrivals: 485
+INFO:root:system events: 141
+time elapsed: 166.5253244170185
+departures: 345
+arrivals: 486
+INFO:root:system events: 140
+time elapsed: 166.7426489430511
+departures: 346
+arrivals: 486
+INFO:root:system events: 141
+time elapsed: 166.95917178859634
+departures: 346
+arrivals: 487
+INFO:root:system events: 140
+time elapsed: 167.24996231689113
+departures: 347
+arrivals: 487
+INFO:root:system events: 141
+time elapsed: 167.51616731193755
+departures: 347
+arrivals: 488
+INFO:root:system events: 140
+time elapsed: 167.5763341210878
+departures: 348
+arrivals: 488
+INFO:root:system events: 139
+time elapsed: 167.60163822605853
+departures: 349
+arrivals: 488
+INFO:root:system events: 138
+time elapsed: 167.7749217304854
+departures: 350
+arrivals: 488
+INFO:root:system events: 139
+time elapsed: 168.33733217425632
+departures: 350
+arrivals: 489
+INFO:root:system events: 138
+time elapsed: 168.40264706461278
+departures: 351
+arrivals: 489
+INFO:root:system events: 137
+time elapsed: 168.49759294649635
+departures: 352
+arrivals: 489
+INFO:root:system events: 138
+time elapsed: 168.51782300689317
+departures: 352
+arrivals: 490
+INFO:root:system events: 137
+time elapsed: 168.55429530803525
+departures: 353
+arrivals: 490
+INFO:root:system events: 136
+time elapsed: 168.87470834485396
+departures: 354
+arrivals: 490
+INFO:root:system events: 137
+time elapsed: 169.0845309779904
+departures: 354
+arrivals: 491
+INFO:root:system events: 138
+time elapsed: 169.52506101379188
+departures: 354
+arrivals: 492
+INFO:root:system events: 139
+time elapsed: 169.70078394428225
+departures: 354
+arrivals: 493
+INFO:root:system events: 140
+time elapsed: 169.85665863936777
+departures: 354
+arrivals: 494
+INFO:root:system events: 139
+time elapsed: 169.94444711889233
+departures: 355
+arrivals: 494
+INFO:root:system events: 140
+time elapsed: 170.09829978391141
+departures: 355
+arrivals: 495
+INFO:root:system events: 141
+time elapsed: 170.54385346612835
+departures: 355
+arrivals: 496
+INFO:root:system events: 142
+time elapsed: 170.54557556165346
+departures: 355
+arrivals: 497
+INFO:root:system events: 143
+time elapsed: 170.9404709497454
+departures: 355
+arrivals: 498
+INFO:root:system events: 142
+time elapsed: 171.04382979009878
+departures: 356
+arrivals: 498
+INFO:root:system events: 141
+time elapsed: 171.66355337846588
+departures: 357
+arrivals: 498
+INFO:root:system events: 140
+time elapsed: 171.76095643012619
+departures: 358
+arrivals: 498
+INFO:root:system events: 141
+time elapsed: 171.78033431975985
+departures: 358
+arrivals: 499
+INFO:root:system events: 142
+time elapsed: 171.83073112641557
+departures: 358
+arrivals: 500
+INFO:root:system events: 143
+time elapsed: 171.97897061175016
+departures: 358
+arrivals: 501
+INFO:root:system events: 142
+time elapsed: 172.09131397397783
+departures: 359
+arrivals: 501
+INFO:root:system events: 143
+time elapsed: 172.90113064142915
+departures: 359
+arrivals: 502
+INFO:root:system events: 144
+time elapsed: 173.01194794875366
+departures: 359
+arrivals: 503
+INFO:root:system events: 145
+time elapsed: 173.1502668074759
+departures: 359
+arrivals: 504
+INFO:root:system events: 144
+time elapsed: 173.37527535994954
+departures: 360
+arrivals: 504
+INFO:root:system events: 145
+time elapsed: 173.455874488761
+departures: 360
+arrivals: 505
+INFO:root:system events: 146
+time elapsed: 173.50918635654583
+departures: 360
+arrivals: 506
+INFO:root:system events: 147
+time elapsed: 173.60816870711585
+departures: 360
+arrivals: 507
+INFO:root:system events: 148
+time elapsed: 174.29748947356336
+departures: 360
+arrivals: 508
+INFO:root:system events: 149
+time elapsed: 174.5231767107621
+departures: 360
+arrivals: 509
+INFO:root:system events: 148
+time elapsed: 175.02636732902397
+departures: 361
+arrivals: 509
+INFO:root:system events: 147
+time elapsed: 175.12896874143064
+departures: 362
+arrivals: 509
+INFO:root:system events: 148
+time elapsed: 175.2872599143775
+departures: 362
+arrivals: 510
+INFO:root:system events: 149
+time elapsed: 175.41890167989476
+departures: 362
+arrivals: 511
+INFO:root:system events: 148
+time elapsed: 175.50932704653192
+departures: 363
+arrivals: 511
+INFO:root:system events: 149
+time elapsed: 175.54576531067445
+departures: 363
+arrivals: 512
+INFO:root:system events: 150
+time elapsed: 175.7349428370475
+departures: 363
+arrivals: 513
+INFO:root:system events: 149
+time elapsed: 175.80541445346364
+departures: 364
+arrivals: 513
+INFO:root:system events: 150
+time elapsed: 175.88232622739383
+departures: 364
+arrivals: 514
+INFO:root:system events: 151
+time elapsed: 176.3209309679873
+departures: 364
+arrivals: 515
+INFO:root:system events: 152
+time elapsed: 176.75436067632148
+departures: 364
+arrivals: 516
+INFO:root:system events: 153
+time elapsed: 176.86848348111917
+departures: 364
+arrivals: 517
+INFO:root:system events: 152
+time elapsed: 177.037794554946
+departures: 365
+arrivals: 517
+INFO:root:system events: 153
+time elapsed: 177.15583735909607
+departures: 365
+arrivals: 518
+INFO:root:system events: 154
+time elapsed: 177.6850471261403
+departures: 365
+arrivals: 519
+INFO:root:system events: 153
+time elapsed: 177.79299696626555
+departures: 366
+arrivals: 519
+INFO:root:system events: 154
+time elapsed: 177.82584827492485
+departures: 366
+arrivals: 520
+INFO:root:system events: 155
+time elapsed: 178.26964972510723
+departures: 366
+arrivals: 521
+INFO:root:system events: 156
+time elapsed: 178.32050844286408
+departures: 366
+arrivals: 522
+INFO:root:system events: 155
+time elapsed: 178.5297358570512
+departures: 367
+arrivals: 522
+INFO:root:system events: 154
+time elapsed: 178.82082638308773
+departures: 368
+arrivals: 522
+INFO:root:system events: 155
+time elapsed: 178.9903446464697
+departures: 368
+arrivals: 523
+INFO:root:system events: 154
+time elapsed: 179.1539918186991
+departures: 369
+arrivals: 523
+INFO:root:system events: 155
+time elapsed: 179.18863673273788
+departures: 369
+arrivals: 524
+INFO:root:system events: 156
+time elapsed: 179.51219197827535
+departures: 369
+arrivals: 525
+INFO:root:system events: 155
+time elapsed: 179.57347845679905
+departures: 370
+arrivals: 525
+INFO:root:system events: 156
+time elapsed: 179.74202961960987
+departures: 370
+arrivals: 526
+INFO:root:system events: 157
+time elapsed: 180.07141250554562
+departures: 370
+arrivals: 527
+INFO:root:system events: 158
+time elapsed: 180.24248196413743
+departures: 370
+arrivals: 528
+INFO:root:system events: 159
+time elapsed: 180.42216180197116
+departures: 370
+arrivals: 529
+INFO:root:system events: 158
+time elapsed: 180.58138721330218
+departures: 371
+arrivals: 529
+INFO:root:system events: 157
+time elapsed: 180.79538978885842
+departures: 372
+arrivals: 529
+INFO:root:system events: 156
+time elapsed: 180.91417256127863
+departures: 373
+arrivals: 529
+INFO:root:system events: 155
+time elapsed: 180.94478227924836
+departures: 374
+arrivals: 529
+INFO:root:system events: 156
+time elapsed: 180.97721338199483
+departures: 374
+arrivals: 530
+INFO:root:system events: 157
+time elapsed: 181.81312084015357
+departures: 374
+arrivals: 531
+INFO:root:system events: 158
+time elapsed: 181.85577749064583
+departures: 374
+arrivals: 532
+INFO:root:system events: 157
+time elapsed: 181.98862740540258
+departures: 375
+arrivals: 532
+INFO:root:system events: 158
+time elapsed: 181.99150321901922
+departures: 375
+arrivals: 533
+INFO:root:system events: 159
+time elapsed: 182.03256434190934
+departures: 375
+arrivals: 534
+INFO:root:system events: 158
+time elapsed: 182.08503889926627
+departures: 376
+arrivals: 534
+INFO:root:system events: 157
+time elapsed: 182.1143183216891
+departures: 377
+arrivals: 534
+INFO:root:system events: 158
+time elapsed: 182.79964881193527
+departures: 377
+arrivals: 535
+INFO:root:system events: 159
+time elapsed: 182.83345707283908
+departures: 377
+arrivals: 536
+INFO:root:system events: 160
+time elapsed: 183.4971956272553
+departures: 377
+arrivals: 537
+INFO:root:system events: 161
+time elapsed: 183.77582148408678
+departures: 377
+arrivals: 538
+INFO:root:system events: 162
+time elapsed: 183.92873326278908
+departures: 377
+arrivals: 539
+INFO:root:system events: 163
+time elapsed: 184.06842353355327
+departures: 377
+arrivals: 540
+INFO:root:system events: 162
+time elapsed: 184.08262126010254
+departures: 378
+arrivals: 540
+INFO:root:system events: 161
+time elapsed: 184.2714781139312
+departures: 379
+arrivals: 540
+INFO:root:system events: 162
+time elapsed: 184.54048803068855
+departures: 379
+arrivals: 541
+INFO:root:system events: 163
+time elapsed: 184.7832926888478
+departures: 379
+arrivals: 542
+INFO:root:system events: 162
+time elapsed: 184.8069556391268
+departures: 380
+arrivals: 542
+INFO:root:system events: 163
+time elapsed: 185.00446657955194
+departures: 380
+arrivals: 543
+INFO:root:system events: 164
+time elapsed: 185.27409447744142
+departures: 380
+arrivals: 544
+INFO:root:system events: 165
+time elapsed: 185.8586491514155
+departures: 380
+arrivals: 545
+INFO:root:system events: 164
+time elapsed: 185.96409306879926
+departures: 381
+arrivals: 545
+INFO:root:system events: 163
+time elapsed: 185.9837531958036
+departures: 382
+arrivals: 545
+INFO:root:system events: 164
+time elapsed: 186.28967313065348
+departures: 382
+arrivals: 546
+INFO:root:system events: 165
+time elapsed: 186.37115875999464
+departures: 382
+arrivals: 547
+INFO:root:system events: 164
+time elapsed: 186.72539829173343
+departures: 383
+arrivals: 547
+INFO:root:system events: 163
+time elapsed: 186.74733462923433
+departures: 384
+arrivals: 547
+INFO:root:system events: 162
+time elapsed: 186.94987124754
+departures: 385
+arrivals: 547
+INFO:root:system events: 161
+time elapsed: 187.00240316472866
+departures: 386
+arrivals: 547
+INFO:root:system events: 162
+time elapsed: 187.14935484092518
+departures: 386
+arrivals: 548
+INFO:root:system events: 161
+time elapsed: 187.32514305184262
+departures: 387
+arrivals: 548
+INFO:root:system events: 160
+time elapsed: 187.50218745418553
+departures: 388
+arrivals: 548
+INFO:root:system events: 159
+time elapsed: 187.58399716118464
+departures: 389
+arrivals: 548
+INFO:root:system events: 160
+time elapsed: 187.72099586745233
+departures: 389
+arrivals: 549
+INFO:root:system events: 159
+time elapsed: 187.78443526457724
+departures: 390
+arrivals: 549
+INFO:root:system events: 158
+time elapsed: 187.86006999057025
+departures: 391
+arrivals: 549
+INFO:root:system events: 157
+time elapsed: 187.9890426038774
+departures: 392
+arrivals: 549
+INFO:root:system events: 156
+time elapsed: 188.02471110755565
+departures: 393
+arrivals: 549
+INFO:root:system events: 157
+time elapsed: 188.28145067229505
+departures: 393
+arrivals: 550
+INFO:root:system events: 158
+time elapsed: 188.44908814622573
+departures: 393
+arrivals: 551
+INFO:root:system events: 159
+time elapsed: 188.57318207327637
+departures: 393
+arrivals: 552
+INFO:root:system events: 158
+time elapsed: 188.63630598392072
+departures: 394
+arrivals: 552
+INFO:root:system events: 157
+time elapsed: 188.8410256380712
+departures: 395
+arrivals: 552
+INFO:root:system events: 158
+time elapsed: 188.99587271361187
+departures: 395
+arrivals: 553
+INFO:root:system events: 157
+time elapsed: 189.4915819674465
+departures: 396
+arrivals: 553
+INFO:root:system events: 158
+time elapsed: 189.5586986628356
+departures: 396
+arrivals: 554
+INFO:root:system events: 157
+time elapsed: 189.61431670988665
+departures: 397
+arrivals: 554
+INFO:root:system events: 156
+time elapsed: 189.70289891750323
+departures: 398
+arrivals: 554
+INFO:root:system events: 155
+time elapsed: 189.8747366107266
+departures: 399
+arrivals: 554
+INFO:root:system events: 154
+time elapsed: 189.97383727300414
+departures: 400
+arrivals: 554
+INFO:root:system events: 153
+time elapsed: 190.18578344096673
+departures: 401
+arrivals: 554
+INFO:root:system events: 152
+time elapsed: 190.51280522407947
+departures: 402
+arrivals: 554
+INFO:root:system events: 153
+time elapsed: 190.77293524384854
+departures: 402
+arrivals: 555
+INFO:root:system events: 152
+time elapsed: 190.88206149456698
+departures: 403
+arrivals: 555
+INFO:root:system events: 153
+time elapsed: 191.4134198941226
+departures: 403
+arrivals: 556
+INFO:root:system events: 154
+time elapsed: 191.4962847351265
+departures: 403
+arrivals: 557
+INFO:root:system events: 155
+time elapsed: 191.82136108489144
+departures: 403
+arrivals: 558
+INFO:root:system events: 156
+time elapsed: 191.86076648286374
+departures: 403
+arrivals: 559
+INFO:root:system events: 155
+time elapsed: 191.98319572240382
+departures: 404
+arrivals: 559
+INFO:root:system events: 156
+time elapsed: 192.0655265796567
+departures: 404
+arrivals: 560
+INFO:root:system events: 155
+time elapsed: 192.17774575045755
+departures: 405
+arrivals: 560
+INFO:root:system events: 156
+time elapsed: 192.19236981747684
+departures: 405
+arrivals: 561
+INFO:root:system events: 155
+time elapsed: 192.50720002696295
+departures: 406
+arrivals: 561
+INFO:root:system events: 154
+time elapsed: 192.5430461356099
+departures: 407
+arrivals: 561
+INFO:root:system events: 155
+time elapsed: 192.62860152972263
+departures: 407
+arrivals: 562
+INFO:root:system events: 156
+time elapsed: 193.0710425172416
+departures: 407
+arrivals: 563
+INFO:root:system events: 157
+time elapsed: 193.13577284633325
+departures: 407
+arrivals: 564
+INFO:root:system events: 156
+time elapsed: 193.5997452872734
+departures: 408
+arrivals: 564
+INFO:root:system events: 155
+time elapsed: 193.95267128429685
+departures: 409
+arrivals: 564
+INFO:root:system events: 156
+time elapsed: 194.06894709765564
+departures: 409
+arrivals: 565
+INFO:root:system events: 157
+time elapsed: 194.14218834711818
+departures: 409
+arrivals: 566
+INFO:root:system events: 158
+time elapsed: 194.39736183713427
+departures: 409
+arrivals: 567
+INFO:root:system events: 159
+time elapsed: 194.51164174570224
+departures: 409
+arrivals: 568
+INFO:root:system events: 160
+time elapsed: 194.63252675030526
+departures: 409
+arrivals: 569
+INFO:root:system events: 161
+time elapsed: 194.93059341399106
+departures: 409
+arrivals: 570
+INFO:root:system events: 162
+time elapsed: 195.77974381936508
+departures: 409
+arrivals: 571
+INFO:root:system events: 163
+time elapsed: 196.3251137334406
+departures: 409
+arrivals: 572
+INFO:root:system events: 164
+time elapsed: 196.75416110395128
+departures: 409
+arrivals: 573
+INFO:root:system events: 165
+time elapsed: 197.02719595225844
+departures: 409
+arrivals: 574
+INFO:root:system events: 166
+time elapsed: 197.87882287358335
+departures: 409
+arrivals: 575
+INFO:root:system events: 167
+time elapsed: 198.1048180452781
+departures: 409
+arrivals: 576
+INFO:root:system events: 166
+time elapsed: 198.23318666132494
+departures: 410
+arrivals: 576
+INFO:root:system events: 167
+time elapsed: 198.79486549203415
+departures: 410
+arrivals: 577
+INFO:root:system events: 168
+time elapsed: 198.875061834051
+departures: 410
+arrivals: 578
+INFO:root:system events: 167
+time elapsed: 199.1310151201662
+departures: 411
+arrivals: 578
+INFO:root:system events: 166
+time elapsed: 199.13713803617313
+departures: 412
+arrivals: 578
+INFO:root:system events: 165
+time elapsed: 199.33205415959574
+departures: 413
+arrivals: 578
+INFO:root:system events: 166
+time elapsed: 199.36673460566976
+departures: 413
+arrivals: 579
+INFO:root:system events: 165
+time elapsed: 199.46245574045687
+departures: 414
+arrivals: 579
+INFO:root:system events: 166
+time elapsed: 199.6023906619686
+departures: 414
+arrivals: 580
+INFO:root:system events: 167
+time elapsed: 199.6366513382576
+departures: 414
+arrivals: 581
+INFO:root:system events: 168
+time elapsed: 199.87780000243455
+departures: 414
+arrivals: 582
+INFO:root:system events: 167
+time elapsed: 200.12997728145785
+departures: 415
+arrivals: 582
+INFO:root:system events: 166
+time elapsed: 200.25978157202323
+departures: 416
+arrivals: 582
+INFO:root:system events: 167
+time elapsed: 200.80689619738948
+departures: 416
+arrivals: 583
+INFO:root:system events: 166
+time elapsed: 200.82505158699104
+departures: 417
+arrivals: 583
