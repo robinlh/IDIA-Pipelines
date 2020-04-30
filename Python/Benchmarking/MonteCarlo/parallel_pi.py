@@ -3,6 +3,8 @@ from mpi4py import MPI
 import logging
 import time
 
+from socket import gethostname
+
 
 # from utilities import log_function_execution_time
 
@@ -79,7 +81,8 @@ def main(size, rank, comm, point_array):
     :param point_array:
     :return:
     """
-    logging.basicConfig(filename='parallel.log', level=logging.INFO)
+    logging.basicConfig(filename='parallel.'+str(rank)+'.log', level=logging.INFO)
+    logging.info('This is rank ' + str(rank) + ' running on ' + gethostname())
     if rank == 0:
         logging.info('run with {} cores'.format(size))
 
@@ -101,5 +104,5 @@ if __name__ == '__main__':
     comm = MPI.COMM_WORLD
     rank = comm.Get_rank()
     size = comm.Get_size()
-    points = generate_points(5000000)
+    points = generate_points(5000)
     main(size, rank, comm, points)
