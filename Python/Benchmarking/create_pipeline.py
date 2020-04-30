@@ -60,9 +60,10 @@ def write_pipeline(script_list, filename):
     pipeline_script.write('jid0=$(sbatch ' + script_list[0] + ')\n')
     pipeline_script.write('jid0=${jid0##* }\n')
     for i, script in enumerate(script_list):
-        pipeline_script.write('jid' + str(i + 1) + '=$(sbatch --dependency=afterok:$jid' + str(i) + ' ' +
-                              script_list[i + 1] + ')\n')
-        pipeline_script.write('jid' + str(i + 1) + '=${jid' + str(i + 1) + '##* }\n')
+        if (i + 1) < len(script_list):
+            pipeline_script.write('jid' + str(i + 1) + '=$(sbatch --dependency=afterok:$jid' + str(i) + ' ' +
+                                  script_list[i + 1] + ')\n')
+            pipeline_script.write('jid' + str(i + 1) + '=${jid' + str(i + 1) + '##* }\n')
 
 
 if __name__ == '__main__':
