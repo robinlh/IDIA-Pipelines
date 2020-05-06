@@ -1,5 +1,12 @@
-def write_batch(filename, script, script_args, container_path, *args):
+import argparse
+import configparser
+import os
+
+
+def write_batch(filename, path_to_write, script, script_args, container_path, *args):
     """
+    write a single batch file from a provided python script
+    :param path_to_write: path to write batch file
     :param filename: name of file to write to
     :param script: python script to be run in sbatch file
     :param script_args: any arguments the script requires as string with items separated by space
@@ -10,46 +17,61 @@ def write_batch(filename, script, script_args, container_path, *args):
     params = {'script': script,
               'script_args': script_args,
               'container_path': container_path,
-              'cpus': args[0],
-              'job_name': args[1]}
+              'n_tasks': args[0],
+              'nodes': args[1],
+              'job_name': args[2]}
 
     content = """#!/bin/bash\n
     #SBATCH --job-name={job_name}
-    #SBATCH --cpus-per-task={cpus}
-    #SBATCH --mem=16GB
-    #SBATCH --output=logs/bench-%j-stdout.log
-    #SBATCH --error=logs/bench-%j-stderr.log
+    #SBATCH --nodes={nodes}
+    #SBATCH --ntasks-per-node={n_tasks}
+    #SBATCH --mem=4GB
+    #SBATCH --time=00:10:00
+    #SBATCH --output=logs/{job_name}-%j-stdout.log
+    #SBATCH --error=logs/{job_name}-%j-stderr.log
     
-    echo "Submitting SLURM job: {script} using {cpus} cores"
-    singularity exec {container_path} python {script} {script_args}
+    echo "Submitting SLURM job: {script} using {n_tasks} cores"
+    mpirun singularity exec {container_path} python {script} {script_args}
     """
+
+    # if no script arguments provided, replace empty list with empty string
+    if not params['script_args']:
+        params['script_args'] = ''
 
     # insert arguments and remove whitespace
     content = content.format(**params).replace("    ", "")
-    sbatch_file = open(filename, 'a')
+
+    # if directory path doesn't exist create it
+    if not os.path.exists(path_to_write):
+        os.makedirs(path_to_write)
+    write_location = path_to_write + '/' + filename
+    sbatch_file = open(write_location, 'a')
     sbatch_file.write(content)
     sbatch_file.close()
 
 
 def write_batch_all(scripts, script_args, container_path, *args):
     """
+    write all the batch files
     :param scripts: list of scripts
     :param script_args: list or arguments
     :param container_path: path to container to be used
     :param args: sbatch arguments
-    :return:
+    :return: list of batch file names
     """
     script_list = []
-    for i, script in enumerate(scripts):
-        filename = str(script).replace('.py', '') + '_sbatch.sh'
-        script_list.append(filename)
-        write_batch(filename, script, script_args[i], container_path, args[0], args[1])
+    for task in args[0]:
+        for i, script in enumerate(scripts):
+            filename = str(script).replace('.py', '') + '_{}_{}_sbatch.sh'.format(str(task), i + 1)
+            script_list.append(str(task) + '/' + filename)
+            write_batch(filename, str(task), script, script_args, container_path, task, args[1], args[2])
 
     return script_list
 
 
 def write_pipeline(script_list, filename):
     """
+    write the final pipeline script submitted to slurm
     :param script_list: list of batch scripts (returned by write_batch_all() function)
     :param filename: name of file to be written
     :return:
@@ -65,12 +87,49 @@ def write_pipeline(script_list, filename):
                                   script_list[i + 1] + ')\n')
             pipeline_script.write('jid' + str(i + 1) + '=${jid' + str(i + 1) + '##* }\n')
 
+    pipeline_script.close()
+
+
+def parse_configs(config_file, repetitions):
+    """
+    parse the config file for needed parameters
+    :param config_file:
+    :param repetitions: number of times to repeat single script if needed
+    :return: tuple of parameters
+    """
+    config = configparser.ConfigParser()
+    config.read(config_file)
+
+    # parse sections of config
+    scripts_information = config['script_information']
+    slurm_information = config['slurm']
+
+    # get script related information
+    scripts = [eval(scripts_information['scripts'])] * repetitions
+    script_args = eval(scripts_information['script_args'])
+    container_path = eval(scripts_information['container_path'])
+
+    # get slurm related information
+    n_tasks = eval(slurm_information['n_tasks'])
+    nodes = eval(slurm_information['nodes'])
+    job_name = eval(slurm_information['job_name'])
+    return scripts, script_args, container_path, n_tasks, nodes, job_name
+
+
+def main(config_file, repetitions, pipeline_file):
+    """
+    run everything to create batch files and pipeline script
+    :param config_file:
+    :param repetitions:
+    :param pipeline_file:
+    :return:
+    """
+    py_scripts, py_script_args, sim_container_path, tasks_per_node, num_nodes, job_names \
+        = parse_configs(config_file, repetitions)
+
+    batch_list = write_batch_all(py_scripts, py_script_args, sim_container_path, tasks_per_node, num_nodes, job_names)
+    write_pipeline(batch_list, pipeline_file)
+
 
 if __name__ == '__main__':
-    scripts = ['script1.py', 'script2.py', 'script3.py', 'script4.py']
-    script_args = ['32 test_script_creation.log', '32 test_script_creation.log', '32 test_script_creation.log',
-                   '32 test_script_creation.log']
-    container_path = '/some/path/container.simg'
-
-    batch_list = write_batch_all(scripts, script_args, container_path, 32, 'test_func')
-    write_pipeline(batch_list, 'pipeline.sh')
+    main('scripts_information.config', 10, 'pipeline.sh')
