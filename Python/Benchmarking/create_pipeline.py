@@ -3,9 +3,10 @@ import configparser
 import os
 
 
-def write_batch(filename, path_to_write, script, script_args, container_path, *args):
+def write_batch(filename, script_path, path_to_write, script, script_args, container_path, *args):
     """
     write a single batch file from a provided python script
+    :param script_path: path to python script
     :param path_to_write: path to write batch file
     :param filename: name of file to write to
     :param script: python script to be run in sbatch file
@@ -16,6 +17,7 @@ def write_batch(filename, path_to_write, script, script_args, container_path, *a
     """
     params = {'script': script,
               'script_args': script_args,
+              'script_path': script_path,
               'container_path': container_path,
               'n_tasks': args[0],
               'nodes': args[1],
@@ -31,7 +33,7 @@ def write_batch(filename, path_to_write, script, script_args, container_path, *a
     #SBATCH --error=logs/{job_name}-%j-stderr.log
     
     echo "Submitting SLURM job: {script} using {n_tasks} cores"
-    mpirun singularity exec {container_path} python {script} {script_args}
+    mpirun singularity exec {container_path} python {script_path}{script} {script_args}
     """
 
     # if no script arguments provided, replace empty list with empty string
@@ -50,9 +52,10 @@ def write_batch(filename, path_to_write, script, script_args, container_path, *a
     sbatch_file.close()
 
 
-def write_batch_all(scripts, script_args, container_path, *args):
+def write_batch_all(scripts, script_path, script_args, container_path, *args):
     """
     write all the batch files
+    :param script_path: python script path
     :param scripts: list of scripts
     :param script_args: list or arguments
     :param container_path: path to container to be used
@@ -63,8 +66,8 @@ def write_batch_all(scripts, script_args, container_path, *args):
     for task in args[0]:
         for i, script in enumerate(scripts):
             filename = str(script).replace('.py', '') + '_{}_{}_sbatch.sh'.format(str(task), i + 1)
-            script_list.append(str(task) + '/' + filename)
-            write_batch(filename, str(task), script, script_args, container_path, task, args[1], args[2])
+            script_list.append('{}_cores'.format(str(task)) + '/' + filename)
+            write_batch(filename, script_path, '{}_cores'.format(str(task)), script, script_args, container_path, task, args[1], args[2])
 
     return script_list
 
@@ -106,6 +109,7 @@ def parse_configs(config_file, repetitions):
 
     # get script related information
     scripts = [eval(scripts_information['scripts'])] * repetitions
+    script_path = eval(scripts_information['script_path'])
     script_args = eval(scripts_information['script_args'])
     container_path = eval(scripts_information['container_path'])
 
@@ -113,7 +117,7 @@ def parse_configs(config_file, repetitions):
     n_tasks = eval(slurm_information['n_tasks'])
     nodes = eval(slurm_information['nodes'])
     job_name = eval(slurm_information['job_name'])
-    return scripts, script_args, container_path, n_tasks, nodes, job_name
+    return scripts, script_path, script_args, container_path, n_tasks, nodes, job_name
 
 
 def main(config_file, repetitions, pipeline_file):
@@ -124,12 +128,12 @@ def main(config_file, repetitions, pipeline_file):
     :param pipeline_file:
     :return:
     """
-    py_scripts, py_script_args, sim_container_path, tasks_per_node, num_nodes, job_names \
+    py_scripts, py_script_path, py_script_args, sim_container_path, tasks_per_node, num_nodes, job_names \
         = parse_configs(config_file, repetitions)
 
-    batch_list = write_batch_all(py_scripts, py_script_args, sim_container_path, tasks_per_node, num_nodes, job_names)
+    batch_list = write_batch_all(py_scripts, py_script_path, py_script_args, sim_container_path, tasks_per_node, num_nodes, job_names)
     write_pipeline(batch_list, pipeline_file)
 
 
 if __name__ == '__main__':
-    main('scripts_information.config', 10, 'pipeline.sh')
+    main('scripts_information.config', 100, 'pipeline.sh')
