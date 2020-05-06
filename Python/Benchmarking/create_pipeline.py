@@ -67,7 +67,8 @@ def write_batch_all(scripts, script_path, script_args, container_path, *args):
         for i, script in enumerate(scripts):
             filename = str(script).replace('.py', '') + '_{}_{}_sbatch.sh'.format(str(task), i + 1)
             script_list.append('{}_cores'.format(str(task)) + '/' + filename)
-            write_batch(filename, script_path, '{}_cores'.format(str(task)), script, script_args, container_path, task, args[1], args[2])
+            write_batch(filename, script_path, '{}_cores'.format(str(task)), script, script_args, container_path, task,
+                        args[1], args[2])
 
     return script_list
 
@@ -84,11 +85,13 @@ def write_pipeline(script_list, filename):
     pipeline_script.write('\n')
     pipeline_script.write('jid0=$(sbatch ' + script_list[0] + ')\n')
     pipeline_script.write('jid0=${jid0##* }\n')
+    pipeline_script.write('$(echo "${jid0##* }" >> job_ids.txt)\n')
     for i, script in enumerate(script_list):
         if (i + 1) < len(script_list):
             pipeline_script.write('jid' + str(i + 1) + '=$(sbatch --dependency=afterok:$jid' + str(i) + ' ' +
                                   script_list[i + 1] + ')\n')
             pipeline_script.write('jid' + str(i + 1) + '=${jid' + str(i + 1) + '##* }\n')
+            pipeline_script.write('$(echo "${jid' + str(i + 1) + '##* }" >> job_ids.txt)\n')
 
     pipeline_script.close()
 
@@ -131,9 +134,10 @@ def main(config_file, repetitions, pipeline_file):
     py_scripts, py_script_path, py_script_args, sim_container_path, tasks_per_node, num_nodes, job_names \
         = parse_configs(config_file, repetitions)
 
-    batch_list = write_batch_all(py_scripts, py_script_path, py_script_args, sim_container_path, tasks_per_node, num_nodes, job_names)
+    batch_list = write_batch_all(py_scripts, py_script_path, py_script_args, sim_container_path, tasks_per_node,
+                                 num_nodes, job_names)
     write_pipeline(batch_list, pipeline_file)
 
 
 if __name__ == '__main__':
-    main('scripts_information.config', 100, 'pipeline.sh')
+    main('scripts_information.config', 2, 'pipeline.sh')
