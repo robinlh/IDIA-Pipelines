@@ -29,8 +29,8 @@ def write_batch(filename, script_path, path_to_write, script, script_args, conta
     #SBATCH --ntasks-per-node={n_tasks}
     #SBATCH --mem=4GB
     #SBATCH --time=00:10:00
-    #SBATCH --output=logs/{job_name}-%j-stdout.log
-    #SBATCH --error=logs/{job_name}-%j-stderr.log
+    #SBATCH --output=logs/{job_name}/{job_name}-%j-stdout.log
+    #SBATCH --error=logs/{job_name}/{job_name}-%j-stderr.log
     
     echo "Submitting SLURM job: {script} using {n_tasks} cores"
     mpirun singularity exec {container_path} python {script_path}{script} {script_args}
@@ -98,14 +98,14 @@ def write_pipeline(script_list, filename):
         if i == (len(script_list) - 2):
             break
         elif (i + 1) < len(script_list):
-            pipeline_script.write('jid' + str(i) + '=$(sbatch --dependency=afterok:$jid' + str(i + 1) + ' ' +
+            pipeline_script.write('jid' + str(i + 1) + '=$(sbatch --dependency=afterok:$jid' + str(i) + ' ' +
                                   script_list[i + 1] + ')\n')
             pipeline_script.write('jid' + str(i + 1) + '=${jid' + str(i + 1) + '##* }\n')
             pipeline_script.write('$(echo "${jid' + str(i + 1) + '##* }" >> diagnostics/job_ids.txt)\n')
 
     # write
-    pipeline_script.write('jid' + str(len(script_list) - 2) + '=$(sbatch --dependency=afterok:$jid' +
-                          str(len(script_list) - 1) + ' ' +
+    pipeline_script.write('jid' + str(len(script_list) - 1) + '=$(sbatch --dependency=afterok:$jid' +
+                          str(len(script_list) - 2) + ' ' +
                           script_list[-1] + ')\n')
     pipeline_script.write('jid' + str(len(script_list) - 1) + '=${jid' + str(len(script_list) - 1) + '##* }\n')
     pipeline_script.close()
