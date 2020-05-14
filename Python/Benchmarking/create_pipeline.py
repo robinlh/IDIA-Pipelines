@@ -52,12 +52,15 @@ def write_batch(filename, script_path, path_to_write, script, script_args, conta
     sbatch_file.close()
 
 
-def write_batch_all(scripts, script_path, script_args, container_path, *args):
+def write_batch_all(scripts, script_path, script_args, container_path, diagnostic_script, diagnostic_script_path,
+                    *args):
     """
     write all the batch files
-    :param script_path: python script path
-    :param scripts: list of scripts
-    :param script_args: list or arguments
+    :param diagnostic_script_path: string
+    :param diagnostic_script: string
+    :param script_path: string, python script path
+    :param scripts: list, all scripts
+    :param script_args: list, respective scripts arguments
     :param container_path: path to container to be used
     :param args: sbatch arguments
     :return: list of batch file names
@@ -70,6 +73,11 @@ def write_batch_all(scripts, script_path, script_args, container_path, *args):
             write_batch(filename, script_path, '{}_cores'.format(str(task)), script, script_args, container_path, task,
                         args[1], args[2])
 
+    # adding diagnostic script to end of list
+    diagnostic_script_filename = diagnostic_script.replace('.py', '') + '_sbatch.sh'
+    script_list.append('diagnostics/{}'.format(diagnostic_script_filename))
+    write_batch(diagnostic_script_filename, diagnostic_script_path, 'diagnostics', diagnostic_script, script_args,
+                container_path, 1, 1, 'diagnostics')
     return script_list
 
 
@@ -85,14 +93,21 @@ def write_pipeline(script_list, filename):
     pipeline_script.write('\n')
     pipeline_script.write('jid0=$(sbatch ' + script_list[0] + ')\n')
     pipeline_script.write('jid0=${jid0##* }\n')
-    pipeline_script.write('$(echo "${jid0##* }" >> job_ids.txt)\n')
+    pipeline_script.write('$(echo "${jid0##* }" >> diagnostics/job_ids.txt)\n')
     for i, script in enumerate(script_list):
-        if (i + 1) < len(script_list):
-            pipeline_script.write('jid' + str(i + 1) + '=$(sbatch --dependency=afterok:$jid' + str(i) + ' ' +
+        if i == (len(script_list) - 2):
+            break
+        elif (i + 1) < len(script_list):
+            pipeline_script.write('jid' + str(i) + '=$(sbatch --dependency=afterok:$jid' + str(i + 1) + ' ' +
                                   script_list[i + 1] + ')\n')
             pipeline_script.write('jid' + str(i + 1) + '=${jid' + str(i + 1) + '##* }\n')
-            pipeline_script.write('$(echo "${jid' + str(i + 1) + '##* }" >> job_ids.txt)\n')
+            pipeline_script.write('$(echo "${jid' + str(i + 1) + '##* }" >> diagnostics/job_ids.txt)\n')
 
+    # write
+    pipeline_script.write('jid' + str(len(script_list) - 2) + '=$(sbatch --dependency=afterok:$jid' +
+                          str(len(script_list) - 1) + ' ' +
+                          script_list[-1] + ')\n')
+    pipeline_script.write('jid' + str(len(script_list) - 1) + '=${jid' + str(len(script_list) - 1) + '##* }\n')
     pipeline_script.close()
 
 
@@ -108,6 +123,7 @@ def parse_configs(config_file, repetitions):
 
     # parse sections of config
     scripts_information = config['script_information']
+    diagnostics_information = config['diagnostics']
     slurm_information = config['slurm']
 
     # get script related information
@@ -116,11 +132,16 @@ def parse_configs(config_file, repetitions):
     script_args = eval(scripts_information['script_args'])
     container_path = eval(scripts_information['container_path'])
 
+    # get diagnostics related information
+    diagnostics_script = eval(diagnostics_information['diagnostic_script'])
+    diagnostic_script_path = eval(diagnostics_information['diagnostic_script_path'])
+
     # get slurm related information
     n_tasks = eval(slurm_information['n_tasks'])
     nodes = eval(slurm_information['nodes'])
     job_name = eval(slurm_information['job_name'])
-    return scripts, script_path, script_args, container_path, n_tasks, nodes, job_name
+    return scripts, script_path, script_args, container_path, diagnostics_script, diagnostic_script_path, \
+           n_tasks, nodes, job_name
 
 
 def main(config_file, repetitions, pipeline_file):
@@ -131,13 +152,15 @@ def main(config_file, repetitions, pipeline_file):
     :param pipeline_file:
     :return:
     """
-    py_scripts, py_script_path, py_script_args, sim_container_path, tasks_per_node, num_nodes, job_names \
+    py_scripts, py_script_path, py_script_args, sim_container_path, diag_script, diag_script_path, tasks_per_node, \
+    num_nodes, job_names \
         = parse_configs(config_file, repetitions)
 
-    batch_list = write_batch_all(py_scripts, py_script_path, py_script_args, sim_container_path, tasks_per_node,
+    batch_list = write_batch_all(py_scripts, py_script_path, py_script_args, sim_container_path, diag_script,
+                                 diag_script_path, tasks_per_node,
                                  num_nodes, job_names)
     write_pipeline(batch_list, pipeline_file)
 
 
 if __name__ == '__main__':
-    main('scripts_information.config', 2, 'pipeline.sh')
+    main('scripts_information.config', 1, 'pipeline_2.sh')
