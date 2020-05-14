@@ -1,4 +1,5 @@
 import sys
+import json
 from subprocess import Popen, PIPE
 from datetime import datetime
 
@@ -81,7 +82,11 @@ def main(job_list_file, *args):
     # sacct_list = read_sacct(args[0])
     sacct_list = get_sacct_output_as_list()
     data = get_sacct_diagnostics(job_list, sacct_list)
-    print(compile_data(data))
+    data_dict = compile_data(data)
+
+    with open('results.json', 'w') as results:
+        json.dump(data_dict, results)
+    # print(compile_data(data))
     # service, arrival = get_queue_times(data)
     # for ser, arr in zip(service, arrival):
     #     print('service time: {}'.format(ser.total_seconds()))
