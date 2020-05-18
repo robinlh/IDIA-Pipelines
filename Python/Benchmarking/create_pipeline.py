@@ -12,7 +12,7 @@ def write_batch(filename, script_path, path_to_write, script, script_args, conta
     :param script: python script to be run in sbatch file
     :param script_args: any arguments the script requires as string with items separated by space
     :param container_path: path to container to use
-    :param args: parameters for the cluster
+    :param args: parameters for the cluster, last parameter is boolean for mpi
     :return: sbatch file
     """
     params = {'script': script,
@@ -35,13 +35,17 @@ def write_batch(filename, script_path, path_to_write, script, script_args, conta
     echo "Submitting SLURM job: {script} using {n_tasks} cores"
     mpirun singularity exec {container_path} python {script_path}{script} {script_args}
     """
-
+    # print(content[0])
     # if no script arguments provided, replace empty list with empty string
     if not params['script_args']:
         params['script_args'] = ''
 
     # insert arguments and remove whitespace
     content = content.format(**params).replace("    ", "")
+
+    # if script doesn't need mpi
+    if args[3]:
+        content = content.replace("mpirun ", "")
 
     # if directory path doesn't exist create it
     if not os.path.exists(path_to_write):
@@ -71,13 +75,13 @@ def write_batch_all(scripts, script_path, script_args, container_path, diagnosti
             filename = str(script).replace('.py', '') + '_{}_{}_sbatch.sh'.format(str(task), i + 1)
             script_list.append('{}_cores'.format(str(task)) + '/' + filename)
             write_batch(filename, script_path, '{}_cores'.format(str(task)), script, script_args, container_path, task,
-                        args[1], args[2])
+                        args[1], args[2], False)
 
     # adding diagnostic script to end of list
     diagnostic_script_filename = diagnostic_script.replace('.py', '') + '_sbatch.sh'
     script_list.append('diagnostics/{}'.format(diagnostic_script_filename))
     write_batch(diagnostic_script_filename, diagnostic_script_path, 'diagnostics', diagnostic_script, script_args,
-                container_path, 1, 1, 'diagnostics')
+                container_path, 1, 1, 'diagnostics', True)
     return script_list
 
 
