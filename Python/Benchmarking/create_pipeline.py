@@ -36,16 +36,18 @@ def write_batch(filename, script_path, path_to_write, script, script_args, conta
     mpirun singularity exec {container_path} python {script_path}{script} {script_args}
     """
     # print(content[0])
+    # if script doesn't need mpi
+    if args[3]:
+        content = content.replace("""echo "Submitting SLURM job: {script} using {n_tasks} cores"
+    mpirun singularity exec {container_path} """, """. .venv/bin/activate
+
+echo 'Submitting SLURM job: slurm_diagnostics.py using 1 cores'\n""")
     # if no script arguments provided, replace empty list with empty string
     if not params['script_args']:
         params['script_args'] = ''
 
     # insert arguments and remove whitespace
     content = content.format(**params).replace("    ", "")
-
-    # if script doesn't need mpi
-    if args[3]:
-        content = content.replace("mpirun ", "")
 
     # if directory path doesn't exist create it
     if not os.path.exists(path_to_write):
