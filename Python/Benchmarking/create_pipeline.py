@@ -31,17 +31,19 @@ def write_batch(filename, script_path, path_to_write, script, script_args, conta
     #SBATCH --time=00:10:00
     #SBATCH --output=logs/{job_name}/{job_name}-%j-stdout.log
     #SBATCH --error=logs/{job_name}/{job_name}-%j-stderr.log
-    
-    echo "Submitting SLURM job: {script} using {n_tasks} cores"
-    mpirun singularity exec {container_path} python {script_path}{script} {script_args}
     """
-    # print(content[0])
-    # if script doesn't need mpi
-    if args[3]:
-        content = content.replace("""echo "Submitting SLURM job: {script} using {n_tasks} cores"
-    mpirun singularity exec {container_path} """, """. .venv/bin/activate
+    standard_content = """. .venv/bin/activate
+                        echo 'Submitting SLURM job: {script} using {n_tasks} cores'
+                        python {script_path}{script} {script_args}"""
 
-echo 'Submitting SLURM job: slurm_diagnostics.py using 1 cores'\n""")
+    mpi_content = """echo "Submitting SLURM job: {script} using {n_tasks} cores & {nodes} nodes"
+    mpirun singularity exec {container_path} python {script_path}{script} {script_args}"""
+
+    if args[3]:
+        content += '\n' + mpi_content
+    else:
+        content += '\n' + standard_content
+
     # if no script arguments provided, replace empty list with empty string
     if not params['script_args']:
         params['script_args'] = ''
@@ -72,18 +74,33 @@ def write_batch_all(scripts, script_path, script_args, container_path, diagnosti
     :return: list of batch file names
     """
     script_list = []
-    for task in args[0]:
+
+    def write_to_script_list(param_name, param):
+        if param_name == 'cores':
+            task = param
+            node = 1
+        elif param_name == 'nodes':
+            task = 1
+            node = param
         for i, script in enumerate(scripts):
-            filename = str(script).replace('.py', '') + '_{}_{}_sbatch.sh'.format(str(task), i + 1)
-            script_list.append('{}_cores'.format(str(task)) + '/' + filename)
-            write_batch(filename, script_path, '{}_cores'.format(str(task)), script, script_args, container_path, task,
-                        args[1], args[2], False)
+            filename = str(script).replace('.py', '') + '_{}_{}_sbatch.sh'.format(str(param), i + 1)
+            path_string = 'sbatch/{}_{}'.format(param_name, str(param))
+            script_list.append(path_string + '/' + filename)
+            write_batch(filename, script_path, path_string, script, script_args,
+                        container_path, task, node, args[2], True)
+
+    # currently creating scripts for separate configurations of cores/nodes
+    for task in args[0]:
+        write_to_script_list('cores', task)
+
+    for node in args[1]:
+        write_to_script_list('nodes', node)
 
     # adding diagnostic script to end of list
     diagnostic_script_filename = diagnostic_script.replace('.py', '') + '_sbatch.sh'
     script_list.append('diagnostics/{}'.format(diagnostic_script_filename))
     write_batch(diagnostic_script_filename, diagnostic_script_path, 'diagnostics', diagnostic_script, script_args,
-                container_path, 1, 1, 'diagnostics', True)
+                container_path, 1, 1, 'diagnostics', False)
     return script_list
 
 
@@ -169,4 +186,4 @@ def main(config_file, repetitions, pipeline_file):
 
 
 if __name__ == '__main__':
-    main('scripts_information.config', 1, 'pipeline_2.sh')
+    main('scripts_information.config', 2, 'pipeline_2.sh')
